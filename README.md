@@ -82,6 +82,11 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-   start the machine (it will start your vm)
+      select your machine and start the machine (it will start your vm)
+ ![12](https://github.com/user-attachments/assets/16631c5a-9793-4bf5-9805-2ae1b5ac1eda)
+
+     it will load yor vm
+![123](https://github.com/user-attachments/assets/c6259b8a-26dd-438a-a7d5-d506217ab878)
+
 
 
