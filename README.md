@@ -7,11 +7,11 @@ steps how to solve mandatory part using debian + the first point of the bonus pa
 
 setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
-     1) download the os (ISO File) 
-        $ https://www.debian.org/distrib/ (Debian)
+     1) download the os (ISO File) (Debian)
+         https://www.debian.org/distrib/ 
         
      2) download the virtualBox 
-        $ https://www.virtualbox.org/
+         https://www.virtualbox.org/
         
      3) open the virtualBox to Create the Virtual Machine
         # open virtualBox application
