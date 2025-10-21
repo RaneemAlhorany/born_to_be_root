@@ -20,30 +20,38 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
              click on new button to create new virtual machine (VM)
 ![new](https://github.com/user-attachments/assets/3970fa34-ab04-4729-86c8-76708dd3d8f5)
 
-            % enter info to create virtual machine (VM) : 
-                   ? Name  + folder (location) + Type + version
-                    ! note for location : the space you need 5GB  so you can 
-                        ~ put the project inside 2 folder just (goinfre or sgonifre)
-                        ?  sgonifre is bigger size than goinfre 
-                    ! note for type : (linux)
-                    ! note for version : Debian (64-bit)
-                    
+             enter info to create virtual machine (VM) : 
+                    Name  + folder (location) + Type + version
+                     note for location : the space you need 5GB  so you can 
+                         put the project inside 2 folder just (goinfre or sgonifre)
+                          sgonifre is bigger size than goinfre 
+                     note for type : (linux)
+                     note for version : Debian (64-bit)
 ![info](https://github.com/user-attachments/assets/6869153a-c63e-4e9f-b4ba-90e2e9d49f51)
 
 
+             Allocate RAM memory
+                 Select the amount of RAM memory to reserve for the virtual machine
+                 Recommended: 1024MB (1GB) minimum, 2048MB (2GB) for better performance
 
-                    
-            % Allocate RAM memory
-                ? Select the amount of RAM memory to reserve for the virtual machine
-                # Recommended: 1024MB (1GB) minimum, 2048MB (2GB) for better performance
-            % Allocate the processors:
-                ? Select the amount of processors  to use it in the virtual machine  
-                # recommended : 2 CPUs
-            % next
-            % Virtual Hard Disk:
-                ? choose the option : create a virtual hard disk now 
-                ? choose the disk size : 20GB  by default
-            % finish
+             Allocate the processors:
+                 Select the amount of processors  to use it in the virtual machine  
+                 recommended : 2 CPUs
+                 note : you can allocate momory + processor as you want 
+              after finish allocate memry + processor enter on the next
+![info](https://github.com/user-attachments/assets/1dbaf778-5ff4-4347-b6b2-21cb5214b497)
+
+             Virtual Hard Disk:
+                 choose the option : create a virtual hard disk now 
+                 choose the disk size : 20GB  by default  , you can write another value but prefare less than 30 
+                 i will put it 25GB
+![nn](https://github.com/user-attachments/assets/3b3da8ed-56c0-473e-b45a-e1d55a341739)
+
+          know you have summary of vm that you created it
+            click on the  finish 
+![nn](https://github.com/user-attachments/assets/bb54df6d-14b7-4478-a380-4d3da2cf177e)
+
+
     ^ 4) select the Virtual Machine (VM) that created 
     ^ 5) choose setting
         # storage 
