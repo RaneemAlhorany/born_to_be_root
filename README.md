@@ -17,7 +17,9 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
          open virtualBox application
 ![virtual machine](https://github.com/user-attachments/assets/30239b3e-daaf-48c7-a228-cdae61d32cac)
 
-            % click on new button to create new virtual machine (VM)
+             click on new button to create new virtual machine (VM)
+![new](https://github.com/user-attachments/assets/3970fa34-ab04-4729-86c8-76708dd3d8f5)
+
             % enter info to create virtual machine (VM) : 
                    ? Name  + folder (location) + Type + version
                     ! note for location : the space you need 5GB  so you can 
@@ -25,6 +27,12 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
                         ?  sgonifre is bigger size than goinfre 
                     ! note for type : (linux)
                     ! note for version : Debian (64-bit)
+                    
+![info](https://github.com/user-attachments/assets/6869153a-c63e-4e9f-b4ba-90e2e9d49f51)
+
+
+
+                    
             % Allocate RAM memory
                 ? Select the amount of RAM memory to reserve for the virtual machine
                 # Recommended: 1024MB (1GB) minimum, 2048MB (2GB) for better performance
