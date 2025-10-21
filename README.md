@@ -184,6 +184,41 @@ setup your vm / installing debian
 ![info](https://github.com/user-attachments/assets/d1fc7512-3608-44bb-94d9-b8a3893c657f)
 
 
+    % 15) How to use this free space
+        ? choose "create a new partition "
+        ~ This will allow you to manually create partitions such as /, /home, or swap , ...... later
+
+![info](https://github.com/user-attachments/assets/dbf47f6f-e0cd-4e54-b30b-56d7be7db174)
+
+    % 16) new partition size 
+        !  As the subject indicates, the size of the partition must be 500 megabytes. (500m)
+        ~ The installer will ask for the size of the new partition
+        ~ You will define it based on your setup plan (for example, 10 GB for root /, etc.)
+![info](https://github.com/user-attachments/assets/a6543a07-2445-4aa4-9406-ef5f174f6108)
+
+
+    % 17) Type for the new partition 
+        ? choose  "primary"
+        ~ This makes the partition a main partition directly on the disk (not part of an extended one)
+        ~ It’s ideal for essential system areas like /boot
+![info](https://github.com/user-attachments/assets/ff39850e-9a7f-4126-b8f7-5b59f9dbd137)
+
+
+        % 18) location for the new partiton:
+             ? choose "Beginning"
+             ~ This places the partition at the start of the disk — which is better for the boot partition 
+                 ~ because it loads faster and is easier for the BIOS/UEFI to detect
+![info](https://github.com/user-attachments/assets/fd9c1cff-8789-4b1d-b683-1bfdebd82f26)
+
+
+
+     % 19) partition setting:
+        ? choose "Mount point"
+        ? We will modify the mount point to which the subject specifies
+        ~ Now the installer will show the settings for this new partition (size, type, mount point, etc.)
+        ~ We will modify the mount point according to the installation instructions
+
+
 
 
 
