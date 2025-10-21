@@ -3,7 +3,7 @@ it is a 42 project
 
 before do all the steps bellow you should study the files from 01 t 0
 
-steps how to solve mandatory part using debian
+steps how to solve mandatory part using debian + the first point of the bonus part
 
 setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
