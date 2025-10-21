@@ -134,8 +134,36 @@ setup your vm / installing debian
     % 7) set the password for the host (root user)
         ~ This is the password for the administator (root) account
         # Be sure to remember it — this account has full system control.
-
+        $ re-enter password to verify
 ![info](https://github.com/user-attachments/assets/2dbbd553-d3d1-4341-9a99-fb35f1dd3d09)
+![info](https://github.com/user-attachments/assets/83677a9c-4472-45e3-a05a-5a6bcf84727c)
+
+    % 8) set the full name for new user
+        ? It must be intra name 
+        ~ When the installer asks for the “full name” of the new user, enter your Intra name
+![info](https://github.com/user-attachments/assets/5d742c08-4ce4-40ef-8ffa-f7bfdeb35de5)
+
+    % 9) set the username for accout 
+        ? same above
+        ~ The username is what you will use to log in to the system
+        ~ Use the same as before — your Intra name
+![info](https://github.com/user-attachments/assets/1140ead6-7e63-4ca6-8c5c-f24ac52d4127)
+
+
+        % 10) password for new user 
+             ~ This is the password for the non-root user (your normal account)
+             ~ This password should be different from the root password for better security
+             # re enter the password
+
+![info](https://github.com/user-attachments/assets/676f3691-c2a9-4eef-8fd0-052456ca4d18)
+![info](https://github.com/user-attachments/assets/5e12af35-10d1-4638-9cbf-bd713811ed55)
+
+
+
+
+
+
+
 
 
 
