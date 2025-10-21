@@ -45,23 +45,41 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
                  choose the option : create a virtual hard disk now 
                  choose the disk size : 20GB  by default  , you can write another value but prefare less than 30 
                 i will make it as a default
-
 ![info](https://github.com/user-attachments/assets/e06db18c-d90b-4c33-bd3e-0c8329bd6afe)
 
           know you have summary of vm that you created it
             click on the  finish 
-![nn](https://github.com/user-attachments/assets/bb54df6d-14b7-4478-a380-4d3da2cf177e)
+![info](https://github.com/user-attachments/assets/c4575867-dedb-4ebf-bf8d-a34be0200e4e)
 
+     4) select the Virtual Machine (VM) that created 
+     5) choose setting
+![info](https://github.com/user-attachments/assets/18013b84-62c9-475b-bafe-448ec1ea5b2b)
 
-    ^ 4) select the Virtual Machine (VM) that created 
-    ^ 5) choose setting
-        # storage 
-        # select controller :IDE
-        # Adds optical drive
+    
+         storage 
+         select Empty word that is bellow controller :IDE
+![info](https://github.com/user-attachments/assets/c75ecd2d-bb8e-4950-a4ae-8e91657e1480)
+
+         Adds optical drive (click on circle button)
+         choose "choose/create a virtual optical disk"
+
+![info](https://github.com/user-attachments/assets/46eeb889-b216-4ae9-af4a-03bc5ebdcd11)
+
             $ add 
+![i info](https://github.com/user-attachments/assets/ee456a70-4df8-4d7d-a6b5-ce6a7bc2bc5f)
+
             $ add the os that you download it 
             $ select it 
             $ choose
-        # ok  
-    ^ 6) start the machine (it will start your vm)
-*/
+![info2](https://github.com/user-attachments/assets/c26742a4-d2b7-45c6-a416-61b0848987b0)
+               
+          choose ok  
+
+![info](https://github.com/user-attachments/assets/cb1f1f14-fdfd-4b20-bf4e-ed7185fd960e)
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   start the machine (it will start your vm)
+
+
