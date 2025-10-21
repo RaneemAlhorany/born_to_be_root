@@ -44,8 +44,9 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
              Virtual Hard Disk:
                  choose the option : create a virtual hard disk now 
                  choose the disk size : 20GB  by default  , you can write another value but prefare less than 30 
-                 i will put it 25GB
-![nn](https://github.com/user-attachments/assets/3b3da8ed-56c0-473e-b45a-e1d55a341739)
+                i will make it as a default
+
+![info](https://github.com/user-attachments/assets/e06db18c-d90b-4c33-bd3e-0c8329bd6afe)
 
           know you have summary of vm that you created it
             click on the  finish 
