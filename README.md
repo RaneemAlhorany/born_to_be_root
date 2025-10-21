@@ -70,11 +70,13 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
             $ add the os that you download it 
             $ select it 
-            $ choose
 ![info2](https://github.com/user-attachments/assets/c26742a4-d2b7-45c6-a416-61b0848987b0)
-               
-          choose ok  
+           
+            $ choose
+![info](https://github.com/user-attachments/assets/d0337dd6-2f18-40d8-8761-4b20cb148d5a)
 
+               
+          click on  ok  
 ![info](https://github.com/user-attachments/assets/cb1f1f14-fdfd-4b20-bf4e-ed7185fd960e)
 
 
