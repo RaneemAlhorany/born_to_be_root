@@ -114,6 +114,30 @@ setup your vm / installing debian
 ![12345](https://github.com/user-attachments/assets/82fbba58-f91b-40f1-899b-655175666308)
 
 
+    % 4) configure the keyboard
+        ~ The installer will ask for the keyboard layout. You can select 
+        ~ “American English” or test your layout by typing in the provided
+        ~  box to ensure it matches your keyboard
+![info](https://github.com/user-attachments/assets/46804422-70a8-458b-b3d4-ddf7f7272491)
+
+    % 5) configure the network (Host name)
+        ~ The system will detect the network and ask you to provide a host name
+        ? You must use the following format: your Intra name + 42 
+![info](https://github.com/user-attachments/assets/9d689d7c-13cc-4cc4-a955-d69e17e08a9c)
+
+    % 6) make the domain name empty
+        ~ When asked for the domain name, leave it empty and press Enter
+        ~ This is because you are not connecting your machine to a specific domain network
+![info](https://github.com/user-attachments/assets/7a4a6257-239b-4161-a7aa-b25fc55085eb)
+
+
+    % 7) set the password for the host (root user)
+        ~ This is the password for the administator (root) account
+        # Be sure to remember it — this account has full system control.
+
+![info](https://github.com/user-attachments/assets/2dbbd553-d3d1-4341-9a99-fb35f1dd3d09)
+
+
 
 
 
