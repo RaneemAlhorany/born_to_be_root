@@ -159,6 +159,35 @@ setup your vm / installing debian
 ![info](https://github.com/user-attachments/assets/5e12af35-10d1-4638-9cbf-bd713811ed55)
 
 
+    % 11) partition disk (choose partitioning method)
+        ? choose manual 
+        ~ When you reach disk partitioning, select Manual mode
+        ~ This gives you full control over how to divide and use your virtual disk
+![info](https://github.com/user-attachments/assets/87391d40-2454-4e31-a9f5-6a7df148a23d)
+
+
+    % 12) select the storage location  (partition disk)
+        ~ Choose your virtual hard disk. It should look something like:
+        ? SCSI3 (0,0,0) (sda) — ## GB ATA VBOX HARDDISK 
+![info](https://github.com/user-attachments/assets/4ff4eac9-d28f-4553-888c-e2c714eada74)
+
+
+    % 13)  Confirm the selection
+        ? When asked whether to use this disk, select Yes to continue
+![info](https://github.com/user-attachments/assets/b707ad6c-4fd1-4131-b0b2-2eeda82c8639)
+
+
+    % 14) select the free space  
+        ~ You will see an area labeled something like 
+                ? pri/log -## GB FREE space
+        ~  Highlight it and press Enter 
+![info](https://github.com/user-attachments/assets/d1fc7512-3608-44bb-94d9-b8a3893c657f)
+
+
+
+
+
+
 
 
 
