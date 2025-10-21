@@ -90,7 +90,36 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-setup your vm
+setup your vm / installing debian
+
+    % 1) click on install
+        ~ Once the virtual machine starts, you’ll see the installer welcome screen
+        ~  Choose the option “Install” to begin the installation process 
+        ~ install the Debian operating system on your virtual machine without using graphical interface
+![info](https://github.com/user-attachments/assets/0960ce71-5384-43e5-a8e1-2182371b54fe)
+
+    % 2) selsect the language (english)
+        ~ This determines the language used in menus, system messages
+![info](https://github.com/user-attachments/assets/148917ef-4cc5-4287-8690-8852e9788252)
+
+
+    % 3) select your location
+        ~ Choose your country or region (for example: “Other → Middle East → Jordan”)
+        ~ This will automatically set your system’s time zone and regional settings
+
+![12](https://github.com/user-attachments/assets/5c717fcc-d4db-4069-ae2c-ea2b94a9cd68)
+
+![124](https://github.com/user-attachments/assets/a32316f3-1b10-4fea-b7fa-67d9892243be)
+
+![12345](https://github.com/user-attachments/assets/82fbba58-f91b-40f1-899b-655175666308)
+
+
+
+
+
+
+
+
 
 
 
