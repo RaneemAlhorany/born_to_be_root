@@ -211,12 +211,29 @@ setup your vm / installing debian
 ![info](https://github.com/user-attachments/assets/fd9c1cff-8789-4b1d-b683-1bfdebd82f26)
 
 
-
      % 19) partition setting:
         ? choose "Mount point"
         ? We will modify the mount point to which the subject specifies
         ~ Now the installer will show the settings for this new partition (size, type, mount point, etc.)
         ~ We will modify the mount point according to the installation instructions
+
+![info](https://github.com/user-attachments/assets/9c649144-4f4e-48b2-9bfd-3df0aa1c1de7)
+
+
+    % 20) Mount point for this partition:
+        ~  We choose boot as the mount point of our partition
+        ? /boot - static files of the boot loader
+        ~ This partition will store static boot loader files — files required to start the operating system (like GRUB).
+        Example: /boot contains the Linux kernel and GRUB configuration
+
+![info](https://github.com/user-attachments/assets/9aca80dc-072b-4d45-9531-19da9e5772ac)
+
+
+    % 21) partition setting:
+        ~ We finish configuring the current partition
+        ? After setting the mount point, select “Done setting up the partition.”
+        ~ This means you’ve finished configuring the /boot partition
+![info](https://github.com/user-attachments/assets/86178aca-bb7e-4dde-a0e9-227c2e198b26)
 
 
 
