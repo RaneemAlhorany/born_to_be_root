@@ -15,8 +15,9 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
         
     ^ 3) open the virtualBox to Create the Virtual Machine
         # open virtualBox application
-          
-          ![p1](https://github.com/user-attachments/assets/4f1ce6e7-99fa-4ac9-958b-8d8edef64340)
+
+          pic/virtual machine.jpg
+          [p1](https://github.com/user-attachments/assets/4f1ce6e7-99fa-4ac9-958b-8d8edef64340)
 
             % click on new button to create new virtual machine (VM)
             % enter info to create virtual machine (VM) : 
