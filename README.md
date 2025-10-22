@@ -402,9 +402,23 @@ setup your vm / installing debian
 
 
 
+    % 35) Confirmation — Erasing data
+        ! The system will ask:
+            really erase the data on SCSI3 (0,0,0) , partotion #5 (sda)?
+        ? choose "yes"
+        ~ This ensures that the partition is securely prepared for encryption
+![WhatsApp Image 2025-10-22 at 21 51 40_1e3186d4](https://github.com/user-attachments/assets/8b1b0db9-cdfc-460e-8df5-89fd4d3fad0b)
+
+     
 
 
-
+        
+    % 36) loader really erase the data on SCSI3 (0,0,0) , partotion #5 (sda)?
+        ? click on cancel
+        ~ We don't care if it takes a long time or a short time, we click cancel, 
+            ~ since there is nothing to encrypt, because the partition is empty.
+        ~ It won’t affect encryption because there’s no real data to wipe
+![WhatsApp Image 2025-10-22 at 21 51 55_af034b00](https://github.com/user-attachments/assets/93dc944e-f8b9-4a28-ac76-5c32f752d4be)
 
 
 
