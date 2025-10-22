@@ -301,6 +301,7 @@ setup your vm / installing debian
     % 28) partition settings:
        ? choose : done setting up the partition
        ~ This confirms and saves the logical partition configuration
+![WhatsApp Image 2025-10-22 at 20 40 21_ee2d29da](https://github.com/user-attachments/assets/12415ed2-69c2-4def-921e-17d49fcf6541)
 
 
 
