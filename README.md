@@ -67,8 +67,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
          Adds optical drive (click on circle button)
          choose "choose/create a virtual optical disk"
-
-![info](https://github.com/user-attachments/assets/46eeb889-b216-4ae9-af4a-03bc5ebdcd11)
+![503731214-46eeb889-b216-4ae9-af4a-03bc5ebdcd11](https://github.com/user-attachments/assets/183f7fbc-4ec5-4c6e-bf22-7c0df0783d4d)
 
             $ add 
 ![i info](https://github.com/user-attachments/assets/ee456a70-4df8-4d7d-a6b5-ce6a7bc2bc5f)
