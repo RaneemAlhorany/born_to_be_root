@@ -288,9 +288,9 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 19 59 11_7d401848](https://github.com/user-attachments/assets/e99419b2-ebb3-4602-95b5-5b0de8a3a436)
 
 
-
-
-
+    % 26) partition settings:
+        ? go to the Mount point and choose it
+![WhatsApp Image 2025-10-22 at 20 07 33_8ce6c4c2](https://github.com/user-attachments/assets/c5f103a7-f770-40d2-a97a-fb4d8ff12237)
 
 
 
@@ -301,8 +301,6 @@ setup your vm / installing debian
 
 
         
-    % 26) partition settings:
-        ? go to the Mount point and choose it
     % 27) Mount point for this partition:
         ? choose "Do not mount it "
     % 28) partition settings:
