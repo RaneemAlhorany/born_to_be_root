@@ -187,8 +187,7 @@ setup your vm / installing debian
 
     % 13)  Confirm the selection
         ? When asked whether to use this disk, select Yes to continue
-![info](https://github.com/user-attachments/assets/b707ad6c-4fd1-4131-b0b2-2eeda82c8639)
-
+![503779662-b707ad6c-4fd1-4131-b0b2-2eeda82c8639](https://github.com/user-attachments/assets/e0bc848f-8424-462a-b1b7-1579f21504c7)
 
     % 14) select the free space  
         ~ You will see an area labeled something like 
