@@ -304,7 +304,15 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 20 40 21_ee2d29da](https://github.com/user-attachments/assets/12415ed2-69c2-4def-921e-17d49fcf6541)
 
 
+    % 29) patition disk (Configure encrypted volumes)
+        ~ Now that the logical partition exists, you’ll move on to encryption configuration.
+        ? choose "configure encrypted volumes"
+![WhatsApp Image 2025-10-22 at 20 55 12_a2450161](https://github.com/user-attachments/assets/961b39ac-f700-4f08-9f06-2ba7490b06cd)
 
+        % 30) Confirmation 
+             ~ Choose “Yes” when asked to confirm that you want to configure encrypted volumes.
+             ? yes
+![WhatsApp Image 2025-10-22 at 20 58 14_b8e21063](https://github.com/user-attachments/assets/2ae278c3-eecd-411b-9749-76b0781c72d7)
 
 
 
