@@ -451,8 +451,49 @@ setup your vm / installing debian
          % 39) partition disks
              ? choose "Cofigure the logical volume manager (LVM)"
              ~ LVM allows you to create flexible partitions inside the encrypted space —
-             ~ it’s like a layer that helps you manage your storage more easily.
+             ~ it’s like a layer that helps you manage your storage more easily
+![WhatsApp Image 2025-10-22 at 22 31 00_8fc4e9fd](https://github.com/user-attachments/assets/b4dbe721-9855-44d5-85d4-38534d11da82)
+
+
+
+
+
+
+             
          % 40) Write the changes to disks and configure LVM?
              ~ The installer will ask if you want to apply the changes before creating LVM
              ?  choose "yes"
              ~ This commits your encryption and prepares the system to build the logical volumes
+![WhatsApp Image 2025-10-22 at 22 33 00_bf4c1f57](https://github.com/user-attachments/assets/382ea9ef-7074-4d73-84b8-829c3d42ca85)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
