@@ -114,7 +114,7 @@ setup your vm / installing debian
 
     % 2) selsect the language (english)
         ~ This determines the language used in menus, system messages
-![info](https://github.com/user-attachments/assets/148917ef-4cc5-4287-8690-8852e9788252)
+![503752011-148917ef-4cc5-4287-8690-8852e9788252](https://github.com/user-attachments/assets/00648926-2bbe-42cd-9b07-a5c1a0180145)
 
 
     % 3) select your location
