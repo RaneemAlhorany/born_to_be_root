@@ -240,8 +240,6 @@ setup your vm / installing debian
 ![503793092-9aca80dc-072b-4d45-9531-19da9e5772ac](https://github.com/user-attachments/assets/c606fc30-f685-41e0-a9df-5fb3cf7d4d19)
 
 
-
-
     % 21) partition setting:
         ~ We finish configuring the current partition
         ? After setting the mount point, select “Done setting up the partition.”
@@ -250,7 +248,21 @@ setup your vm / installing debian
 
 
 
+    % 22) partition setting:
+        ~ Once we have completed the previous step, the partition should appear. 
+        ~ Now we must create a logical partition with all the available disk space, 
+        ~  which has no mount point and which is encrypted. To do this, we select 
+        ~ the free space where we want to create it
+        ? choose "pri/log -## GB FREE space"
+        # Once the /boot partition is done, it should appear in the partition list.
+        # Now, you need to create a new logical partition using all the remaining free space.
+        # This partition will:
+            Have no mount point yet.
+            Be encrypted.
+        ?To do this, select the line that says something like:
+        ? “pri/log - XX GB FREE space.
 
+![WhatsApp Image 2025-10-22 at 19 23 44_b80c6251](https://github.com/user-attachments/assets/5bce1746-c6e0-4188-a6dd-fcfb0c660a29)
 
 
 
