@@ -198,8 +198,8 @@ setup your vm / installing debian
     % 15) How to use this free space
         ? choose "create a new partition "
         ~ This will allow you to manually create partitions such as /, /home, or swap , ...... later
+![503783177-dbf47f6f-e0cd-4e54-b30b-56d7be7db174](https://github.com/user-attachments/assets/dbfbeeda-697c-49c6-ade2-ab51192abdb0)
 
-![info](https://github.com/user-attachments/assets/dbf47f6f-e0cd-4e54-b30b-56d7be7db174)
 
     % 16) new partition size 
         !  As the subject indicates, the size of the partition must be 500 megabytes. (500m)
