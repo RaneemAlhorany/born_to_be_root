@@ -522,13 +522,25 @@ setup your vm / installing debian
                       ? write "namefile"
                       ~ When prompted for the name, type one of the logical volume names (e.g., root, swap, home, etc.)
                       ~ The order of creation should follow the same sequence as described in the project:
-                              # Start with root and end with var-log
+                              # Start with root and end with var/log
+![WhatsApp Image 2025-10-23 at 00 01 33_fafaf491](https://github.com/user-attachments/assets/029c688b-a037-4fda-876d-632101ff90e8)
+
+
+
                       * This name determines where the mount point will be (for example, root will later be mounted as /)
                   % 47) Logical volume size :
-                      ? write "#GB"
+                      ? write "#GB" or #g
                       ~ Size, as the subject indicates, will be #GB
+![WhatsApp Image 2025-10-23 at 00 11 41_69fa79dc](https://github.com/user-attachments/assets/1d31fab9-563d-4d31-8682-bdd3fe3fd596)
 
 
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for swap :
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![WhatsApp Image 2025-10-23 at 00 14 55_6088acab](https://github.com/user-attachments/assets/9ac6e3e1-2585-4582-bf11-b8e6b3bbcb77)
+![WhatsApp Image 2025-10-23 at 00 16 23_91302e08](https://github.com/user-attachments/assets/895b17f9-782b-4397-81f9-ae1e13ccb4d5)
+![WhatsApp Image 2025-10-23 at 00 18 09_522bd204](https://github.com/user-attachments/assets/a8b76e68-245b-40a6-bb55-ad368d5e252c)
+![WhatsApp Image 2025-10-23 at 00 20 21_bbbfb513](https://github.com/user-attachments/assets/dff0397a-5571-409c-aa79-eb13550727ea)
 
 
 
