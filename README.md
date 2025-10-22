@@ -220,7 +220,7 @@ setup your vm / installing debian
              ? choose "Beginning"
              ~ This places the partition at the start of the disk — which is better for the boot partition 
                  ~ because it loads faster and is easier for the BIOS/UEFI to detect
-![info](https://github.com/user-attachments/assets/fd9c1cff-8789-4b1d-b683-1bfdebd82f26)
+![503788345-fd9c1cff-8789-4b1d-b683-1bfdebd82f26](https://github.com/user-attachments/assets/37da357d-d0cf-4ead-a2bd-25f947dcce4a)
 
 
      % 19) partition setting:
