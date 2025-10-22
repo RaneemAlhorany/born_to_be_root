@@ -162,8 +162,7 @@ setup your vm / installing debian
         ? same above
         ~ The username is what you will use to log in to the system
         ~ Use the same as before — your Intra name
-![info](https://github.com/user-attachments/assets/1140ead6-7e63-4ca6-8c5c-f24ac52d4127)
-
+![503768854-1140ead6-7e63-4ca6-8c5c-f24ac52d4127](https://github.com/user-attachments/assets/7124c26e-7444-4791-955b-76bcb40848cc)
 
         % 10) password for new user 
              ~ This is the password for the non-root user (your normal account)
