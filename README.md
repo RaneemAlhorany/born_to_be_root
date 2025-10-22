@@ -272,6 +272,18 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 19 34 28_91ca76d0](https://github.com/user-attachments/assets/8a9ba128-7b59-42db-b1f9-1754483c95c6)
 
 
+    % 24) new partition size 
+        ? write : "max"
+        ~ When asked for the size, type “max”.
+        ~ This tells the installer to use all remaining free space for the encrypted partition
+
+![WhatsApp Image 2025-10-22 at 19 51 33_f0e8f6f7](https://github.com/user-attachments/assets/588fdd92-3f1e-4d16-a3d2-a4e28e80c7d0)
+
+
+
+
+
+
 
 
 
