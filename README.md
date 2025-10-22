@@ -155,7 +155,8 @@ setup your vm / installing debian
     % 8) set the full name for new user
         ? It must be intra name 
         ~ When the installer asks for the “full name” of the new user, enter your Intra name
-![info](https://github.com/user-attachments/assets/5d742c08-4ce4-40ef-8ffa-f7bfdeb35de5)
+<img width="687" height="452" alt="Screenshot 2025-10-22 175454" src="https://github.com/user-attachments/assets/36396bff-073d-4207-82bc-b57c666d1f34" />
+
 
     % 9) set the username for accout 
         ? same above
