@@ -136,7 +136,8 @@ setup your vm / installing debian
     % 5) configure the network (Host name)
         ~ The system will detect the network and ask you to provide a host name
         ? You must use the following format: your Intra name + 42 
-![info](https://github.com/user-attachments/assets/9d689d7c-13cc-4cc4-a955-d69e17e08a9c)
+<img width="605" height="443" alt="Screenshot 2025-10-22 173249" src="https://github.com/user-attachments/assets/0e2e3b40-e519-442d-8bd2-db965778d14a" />
+
 
     % 6) make the domain name empty
         ~ When asked for the domain name, leave it empty and press Enter
