@@ -52,7 +52,9 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
           know you have summary of vm that you created it
             click on the  finish 
-![info](https://github.com/user-attachments/assets/c4575867-dedb-4ebf-bf8d-a34be0200e4e)
+<img width="606" height="435" alt="Screenshot 2025-10-22 155006" src="https://github.com/user-attachments/assets/40aaadc5-6c52-4100-9713-060488b23827" />
+
+
 
      4) select the Virtual Machine (VM) that created 
      5) choose setting
