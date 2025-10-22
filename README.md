@@ -470,16 +470,31 @@ setup your vm / installing debian
 
 
 
+    % 41) LVM configuration action
+        ? choose "Create volume group"
+        ~ A volume group (VG) is a container that will hold multiple logical volumes (like /, /home, swap)
+![WhatsApp Image 2025-10-22 at 22 40 56_1c935ac7](https://github.com/user-attachments/assets/d1de2085-7489-471b-a31c-1594e3a1a065)
 
 
 
 
 
+    % 42) Volume group name
+        ~ You must assign a name to this volume group.
+        ? We have to give the name as indicated in the subject: LVMGroup
+        ~ This name identifies the group that holds all your future logical partitions
+![WhatsApp Image 2025-10-22 at 22 42 56_f08f411a](https://github.com/user-attachments/assets/70f1a6be-c8fc-4481-91ef-e71e8e5f0ad2)
 
 
 
 
 
+       % 43) Devices for the new volume group
+             ? go to "/dev/mapper/sda5_crypt" the click to spacebar in keyboard to select it  , then enter
+             ~ We select which partition we want to perform the encryption on
+             ~ This tells Debian that your new volume group (LVMGroup)
+                 ~ will be created inside the encrypted partition (/dev/mapper/sda5_crypt)
+![WhatsApp Image 2025-10-22 at 22 46 29_b016b08c](https://github.com/user-attachments/assets/8f287fce-722c-45ce-8353-48f0af7e0eb2)
 
 
 
