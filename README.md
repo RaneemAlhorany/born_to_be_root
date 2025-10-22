@@ -63,7 +63,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
     
          storage 
          select Empty word that is bellow controller :IDE
-![info](https://github.com/user-attachments/assets/c75ecd2d-bb8e-4950-a4ae-8e91657e1480)
+![503728741-c75ecd2d-bb8e-4950-a4ae-8e91657e1480](https://github.com/user-attachments/assets/0f792a09-cf85-4cfa-8440-eaf458e98d3c)
 
          Adds optical drive (click on circle button)
          choose "choose/create a virtual optical disk"
