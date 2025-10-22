@@ -109,7 +109,8 @@ setup your vm / installing debian
         ~ Once the virtual machine starts, you’ll see the installer welcome screen
         ~  Choose the option “Install” to begin the installation process 
         ~ install the Debian operating system on your virtual machine without using graphical interface
-![info](https://github.com/user-attachments/assets/0960ce71-5384-43e5-a8e1-2182371b54fe)
+<img width="574" height="480" alt="Screenshot 2025-10-22 170605" src="https://github.com/user-attachments/assets/5e240783-4a48-4b00-ad27-ee7c6bc180fb" />
+
 
     % 2) selsect the language (english)
         ~ This determines the language used in menus, system messages
