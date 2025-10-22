@@ -578,7 +578,111 @@ setup your vm / installing debian
 
 
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-               for temp:
+               for tmp:
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![WhatsApp Image 2025-10-23 at 00 53 14_ba9f4ab2](https://github.com/user-attachments/assets/12e686c7-7cb1-4c68-85ec-20b03322bea2)
+![WhatsApp Image 2025-10-23 at 00 53 30_e3baea59](https://github.com/user-attachments/assets/520e939c-cd14-40fc-a97a-e7ce9723145f)
+![WhatsApp Image 2025-10-23 at 00 54 15_bfa23266](https://github.com/user-attachments/assets/52d8a476-6430-425c-bf63-9cf3329ebfea)
+![WhatsApp Image 2025-10-23 at 00 55 37_94286106](https://github.com/user-attachments/assets/a97603e8-2ba5-444a-9ee0-ac30fbf30640)
+
+
+
+
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for var-log :
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![WhatsApp Image 2025-10-23 at 01 01 01_2651ee06](https://github.com/user-attachments/assets/11c0caf3-f808-4b90-94f4-e95ccfb3067a)
+![WhatsApp Image 2025-10-23 at 01 01 18_7be6f2e4](https://github.com/user-attachments/assets/0c7e72b0-9522-4024-85d5-f32fda997ee3)
+![WhatsApp Image 2025-10-23 at 01 01 42_95acc9f2](https://github.com/user-attachments/assets/22faf6d0-0b55-40f6-aa25-e37637a2b303)
+![WhatsApp Image 2025-10-23 at 01 02 23_0e3bb8d9](https://github.com/user-attachments/assets/cc954993-02e8-4c40-8454-8a71bd89b495)
+
+
+
+         % 48) LVM configuration details to konw the details 
+        ~ After creating all logical volumes
+        ? choose "Display confiuration details" to see all details
+        ~ This will show you all the logical volumes created under 
+            ~ LVMGroup — their names, sizes, and status — to confirm everything is correct
+          after display it enter continue
+![WhatsApp Image 2025-10-23 at 01 07 22_71983afb](https://github.com/user-attachments/assets/3aa4a525-c5f0-477a-9d39-1aec1a39bba4)
+![WhatsApp Image 2025-10-23 at 01 09 38_d169e933](https://github.com/user-attachments/assets/2134ae89-fad5-4b0e-89af-51145c06e34b)
+
+    % 49) LVM configuration action
+        ? choose "finish"
+        # your setup now looks like:
+            # Physical disk → Encrypted partition → Volume Group (LVMGroup) → Logical Volumes.
+![WhatsApp Image 2025-10-23 at 01 12 08_6f560105](https://github.com/user-attachments/assets/3c615ea8-00dd-4d2e-9d55-eb5606b56e2d)
+
+
+
+    ! you will do the configure all the LVM file (root , swap , home , var , srv , tmp ,var-log)
+    * This means you’ve finished creating all your logical volumes inside the volume group LVMGroup
+    * Now, you’ll configure each one of them (format type, mount point, etc.).
+    ! You will repeat the next steps (50 → 55) for each of the following logical volumes:
+    ! root, swap, home, var, srv, tmp, var--log
+        % 50) configure iscsi volumes
+            ? go to the line after the volume  info 
+            ? its like : #1  #.#GB enter to it
+            ~ Use the arrow keys to highlight one logical volume (start with root),then press Enter to configure it
+![WhatsApp Image 2025-10-23 at 01 15 17_2439c3fc](https://github.com/user-attachments/assets/0bfafcca-4509-493d-a844-88934ebaf59f)
+
+
+
+        % 51) partition settings
+            ? Select the option “Use as:” and initially it may show “do not use
+            ~ You need to change this to define how this partition will be used
+![WhatsApp Image 2025-10-23 at 01 17 04_6a41e303](https://github.com/user-attachments/assets/09f6bc61-7e3c-4916-99ff-afe3c9e5abb0)
+
+
+
+          
+        % 52) how to use this partition:
+            ? choose "Ext4 journaling file system"
+            ~ "Ext4 journaling file system" is the standard Linux file system for normal 
+            ~ partitions like /, /home, /var, etc.
+            ! Special case:
+                # For the swap logical volume, instead of “Ext4,”
+                # choose “swap area”, then select “Done setting up the partition.”
+                # (You don’t need a mount point for swap.) we do it bellow dont wory here all info you need and do it in correct place
+![WhatsApp Image 2025-10-23 at 01 19 57_71c1a193](https://github.com/user-attachments/assets/9d7acd3e-a952-4f1d-b683-7101ab295814)
+
+
+
+                
+        % 53) partition settings
+            ? After choosing the file system select "Mount point : none"
+            ~ For normal volumes, you’ll pick a mount point from the list
+            # for file (var-- log) select "Enter manually"   we do it bellow dont wory here all info you need and do it in correct place
+![WhatsApp Image 2025-10-23 at 01 21 58_4af271ce](https://github.com/user-attachments/assets/55ea2dee-b66d-4b15-810e-11efde3eada7)
+
+
+
+
+        % 54) Mount point for this partition
+            ? choose "/nameFile - name file depending the file you choose"
+            # for file (var-- lon)  :  enter the name (var--log)   we do it bellow dont wory here all info you need and do it in correct place
+![WhatsApp Image 2025-10-23 at 01 24 42_f2343d06](https://github.com/user-attachments/assets/5def7d0b-2f75-4783-b61b-8d6c68688cda)
+
+
+        % 55) partition settings 
+        ~ After setting the correct mount point,
+            ? choose "Done setting up the partition"
+![WhatsApp Image 2025-10-23 at 01 26 27_837e7374](https://github.com/user-attachments/assets/6f12fd16-a8ec-4f15-8bbe-9bc68eb209eb)
+
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for root :
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![111](https://github.com/user-attachments/assets/c81d32ad-c7ca-4f18-8b27-d82426aab2a1)
+![222](https://github.com/user-attachments/assets/3616b849-c69c-4a8d-9454-17ea7032b9a9)
+![333](https://github.com/user-attachments/assets/9cec48a6-3fc8-4452-8dc3-e2442ddf1081)
+![444](https://github.com/user-attachments/assets/686c78af-b8a3-4ca8-88ac-2dc52f29f60e)
+![555](https://github.com/user-attachments/assets/5f9df398-6d30-4ff6-951e-e437d4bd0417)
+![666](https://github.com/user-attachments/assets/071ed4f1-e343-4248-b0f9-a75731171fd5)
+
+
+
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for srv:
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -591,6 +695,23 @@ setup your vm / installing debian
 
 
 
+
+
+            
+            ~ Now, assign the correct mount point depending on the name of the volume
+            Logical Volume	    Mount Point
+                root               /
+                home               /home
+                var                /var
+                srv                /srv
+                tmp                /tmp
+                var--log           /var/log
+        ~ This saves your configuration for that logical volume.
+        ! you will doing all step for the file 
+            # Once done, every logical volume will have:
+                ? Its correct file system (Ext4 or Swap)
+                ? Its correct mount point (/, /home, /var, etc.)
+                ? And be ready for installation.
 
 
 
