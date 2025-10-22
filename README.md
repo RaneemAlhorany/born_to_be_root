@@ -228,8 +228,8 @@ setup your vm / installing debian
         ? We will modify the mount point to which the subject specifies
         ~ Now the installer will show the settings for this new partition (size, type, mount point, etc.)
         ~ We will modify the mount point according to the installation instructions
+![503791268-9c649144-4f4e-48b2-9bfd-3df0aa1c1de7](https://github.com/user-attachments/assets/ab976bce-7f4d-4f78-acc0-3c577a49655f)
 
-![info](https://github.com/user-attachments/assets/9c649144-4f4e-48b2-9bfd-3df0aa1c1de7)
 
 
     % 20) Mount point for this partition:
