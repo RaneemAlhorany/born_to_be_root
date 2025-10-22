@@ -130,7 +130,8 @@ setup your vm / installing debian
         ~ The installer will ask for the keyboard layout. You can select 
         ~ “American English” or test your layout by typing in the provided
         ~  box to ensure it matches your keyboard
-![info](https://github.com/user-attachments/assets/46804422-70a8-458b-b3d4-ddf7f7272491)
+![503757141-46804422-70a8-458b-b3d4-ddf7f7272491](https://github.com/user-attachments/assets/fb1d7884-44b3-4064-b876-fb821cfc4fec)
+
 
     % 5) configure the network (Host name)
         ~ The system will detect the network and ask you to provide a host name
