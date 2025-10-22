@@ -193,8 +193,7 @@ setup your vm / installing debian
         ~ You will see an area labeled something like 
                 ? pri/log -## GB FREE space
         ~  Highlight it and press Enter 
-![info](https://github.com/user-attachments/assets/d1fc7512-3608-44bb-94d9-b8a3893c657f)
-
+![503780927-d1fc7512-3608-44bb-94d9-b8a3893c657f](https://github.com/user-attachments/assets/d0de55c5-c22a-44f8-9869-3c2cfaf48141)
 
     % 15) How to use this free space
         ? choose "create a new partition "
