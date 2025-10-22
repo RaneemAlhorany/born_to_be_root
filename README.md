@@ -169,8 +169,8 @@ setup your vm / installing debian
              ~ This password should be different from the root password for better security
              # re enter the password
 
-![info](https://github.com/user-attachments/assets/676f3691-c2a9-4eef-8fd0-052456ca4d18)
-![info](https://github.com/user-attachments/assets/5e12af35-10d1-4638-9cbf-bd713811ed55)
+![11](https://github.com/user-attachments/assets/3d2eecf4-4006-4614-9a22-8231f55430b6)
+![22](https://github.com/user-attachments/assets/fc62b966-609a-4ec5-920a-3d5bdea9cffc)
 
 
     % 11) partition disk (choose partitioning method)
