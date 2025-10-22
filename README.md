@@ -28,7 +28,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
                           sgonifre is bigger size than goinfre 
                      note for type : (linux)
                      note for version : Debian (64-bit)
-![info](https://github.com/user-attachments/assets/6869153a-c63e-4e9f-b4ba-90e2e9d49f51)
+![9](https://github.com/user-attachments/assets/1c33b15d-c3ab-42f6-a8dd-51ba7fb7f2f8)
 
 
              Allocate RAM memory
