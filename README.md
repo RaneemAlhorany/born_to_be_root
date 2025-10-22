@@ -544,11 +544,13 @@ setup your vm / installing debian
 
 
 
-
-
-
-
-
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for home :
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![WhatsApp Image 2025-10-23 at 00 24 19_b3a8b6b1](https://github.com/user-attachments/assets/6f074d5f-b562-4327-be9f-3f88a4b73b8b)
+![WhatsApp Image 2025-10-23 at 00 25 48_0772e46d](https://github.com/user-attachments/assets/2a5a1305-9032-40f6-9b21-a0cdb3562119)
+![WhatsApp Image 2025-10-23 at 00 27 20_85cecd10](https://github.com/user-attachments/assets/2206fd05-1454-402a-b5e7-2a3bba6d7af7)
+![WhatsApp Image 2025-10-23 at 00 29 30_9ba49e2c](https://github.com/user-attachments/assets/6d2db43b-2e4b-49af-84b0-08a2dd80ca68)
 
 
      
