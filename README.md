@@ -121,11 +121,9 @@ setup your vm / installing debian
         ~ Choose your country or region (for example: “Other → Middle East → Jordan”)
         ~ This will automatically set your system’s time zone and regional settings
 
-![12](https://github.com/user-attachments/assets/5c717fcc-d4db-4069-ae2c-ea2b94a9cd68)
-
-![124](https://github.com/user-attachments/assets/a32316f3-1b10-4fea-b7fa-67d9892243be)
-
-![12345](https://github.com/user-attachments/assets/82fbba58-f91b-40f1-899b-655175666308)
+![111](https://github.com/user-attachments/assets/07b7947b-9ff8-4bae-ba8b-6d40c4714743)
+![222](https://github.com/user-attachments/assets/b74a64ec-fbee-4b9c-ab31-ea2df9a0f825)
+![333](https://github.com/user-attachments/assets/088a57af-379b-45b3-a168-b04643f0a19c)
 
 
     % 4) configure the keyboard
