@@ -142,7 +142,7 @@ setup your vm / installing debian
     % 6) make the domain name empty
         ~ When asked for the domain name, leave it empty and press Enter
         ~ This is because you are not connecting your machine to a specific domain network
-![info](https://github.com/user-attachments/assets/7a4a6257-239b-4161-a7aa-b25fc55085eb)
+![503759542-7a4a6257-239b-4161-a7aa-b25fc55085eb](https://github.com/user-attachments/assets/fd28de75-e9d1-4b67-85b4-a4207b0176bf)
 
 
     % 7) set the password for the host (root user)
