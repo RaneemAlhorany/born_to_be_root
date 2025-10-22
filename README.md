@@ -386,8 +386,7 @@ setup your vm / installing debian
         ? choose "Done setting up the partition"
         ~ We finish configuring the current partition
         ~ This confirms the configuration for that partition before encryption begins
-
-
+![WhatsApp Image 2025-10-22 at 21 23 39_3b14105f](https://github.com/user-attachments/assets/d6100ea4-2aaf-4717-9613-747515ec74df)
 
 
 
