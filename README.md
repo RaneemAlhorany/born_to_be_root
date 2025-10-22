@@ -489,7 +489,7 @@ setup your vm / installing debian
 
 
 
-       % 43) Devices for the new volume group
+     % 43) Devices for the new volume group
              ? go to "/dev/mapper/sda5_crypt" the click to spacebar in keyboard to select it  , then enter
              ~ We select which partition we want to perform the encryption on
              ~ This tells Debian that your new volume group (LVMGroup)
@@ -498,7 +498,35 @@ setup your vm / installing debian
 
 
 
+     !  note we will repeat the steps from step (44) to step (47) for the following / several times 
+     ! notes repeat the following to actions for the swap , home , var , srv , tmp , var-log file
+     ! once for each logical volume you need to create
 
+                  * the name + size for each file  (The exact size for each depends on the total disk size of your virtual machine)
+                      root: #GB , swap = #GB , home = #GB , var = #GB, srv = #GB , tmp = #GB , var/log = #GB
+                  % 44) LVM configuration details
+                      ? choose "create logical volume"
+                      ~ This option lets you make an individual virtual partition (LV) inside the LVM group
+![WhatsApp Image 2025-10-22 at 22 57 29_c9ace040](https://github.com/user-attachments/assets/d39df4f3-964f-4617-ade0-abba228c5f13)
+
+                  % 45) Volume group 
+                      ? choose "LVMGroup"
+                      ~ We will start by choosing the group where we want them to be created
+                      ~ We select the only one available (the one we just created)
+                      # That’s the group you created earlier, and it’s where all your logical volumes will be stored
+![WhatsApp Image 2025-10-22 at 22 58 55_cde0dd21](https://github.com/user-attachments/assets/4d94fc60-597b-4bd9-97b9-4bab361031a0)
+
+
+
+                  % 46) Logical volume name :
+                      ? write "namefile"
+                      ~ When prompted for the name, type one of the logical volume names (e.g., root, swap, home, etc.)
+                      ~ The order of creation should follow the same sequence as described in the project:
+                              # Start with root and end with var-log
+                      * This name determines where the mount point will be (for example, root will later be mounted as /)
+                  % 47) Logical volume size :
+                      ? write "#GB"
+                      ~ Size, as the subject indicates, will be #GB
 
 
 
