@@ -395,6 +395,10 @@ setup your vm / installing debian
     % 34) Encryption configuration actions
         ? choose "Finish"
         ~ This tells the installer that you’re done selecting and configuring the encrypted devices
+![WhatsApp Image 2025-10-22 at 21 24 06_c58c68e5](https://github.com/user-attachments/assets/fafb9c49-1309-4a92-9c19-6e2a404e0882)
+
+
+
 
 
 
