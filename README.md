@@ -293,16 +293,11 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 20 07 33_8ce6c4c2](https://github.com/user-attachments/assets/c5f103a7-f770-40d2-a97a-fb4d8ff12237)
 
 
-
-
-
-
-
-
-
-        
     % 27) Mount point for this partition:
         ? choose "Do not mount it "
+![WhatsApp Image 2025-10-22 at 20 13 56_be4e7ba9](https://github.com/user-attachments/assets/066a8a02-a64d-4e48-b690-c0954accc707)
+
+     
     % 28) partition settings:
        ? choose : done setting up the partition
        ~ This confirms and saves the logical partition configuration
