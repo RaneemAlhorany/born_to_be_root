@@ -182,7 +182,7 @@ setup your vm / installing debian
     % 12) select the storage location  (partition disk)
         ~ Choose your virtual hard disk. It should look something like:
         ? SCSI3 (0,0,0) (sda) — ## GB ATA VBOX HARDDISK 
-![info](https://github.com/user-attachments/assets/4ff4eac9-d28f-4553-888c-e2c714eada74)
+<img width="401" height="157" alt="Screenshot 2025-10-22 181650" src="https://github.com/user-attachments/assets/b4109e60-826d-48a2-9724-f789a08957ef" />
 
 
     % 13)  Confirm the selection
