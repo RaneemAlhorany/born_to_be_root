@@ -212,7 +212,8 @@ setup your vm / installing debian
         ? choose  "primary"
         ~ This makes the partition a main partition directly on the disk (not part of an extended one)
         ~ It’s ideal for essential system areas like /boot
-![info](https://github.com/user-attachments/assets/ff39850e-9a7f-4126-b8f7-5b59f9dbd137)
+![503786333-ff39850e-9a7f-4126-b8f7-5b59f9dbd137](https://github.com/user-attachments/assets/954b32f0-bc70-4d97-88b7-ff7cdc5cbce6)
+
 
 
         % 18) location for the new partiton:
