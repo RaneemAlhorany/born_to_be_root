@@ -205,7 +205,7 @@ setup your vm / installing debian
         !  As the subject indicates, the size of the partition must be 500 megabytes. (500m)
         ~ The installer will ask for the size of the new partition
         ~ You will define it based on your setup plan (for example, 10 GB for root /, etc.)
-![info](https://github.com/user-attachments/assets/a6543a07-2445-4aa4-9406-ef5f174f6108)
+![503784730-a6543a07-2445-4aa4-9406-ef5f174f6108](https://github.com/user-attachments/assets/366a6392-f2b6-4350-943f-55473b34cd35)
 
 
     % 17) Type for the new partition 
