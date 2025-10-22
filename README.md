@@ -315,7 +315,12 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 20 58 14_b8e21063](https://github.com/user-attachments/assets/2ae278c3-eecd-411b-9749-76b0781c72d7)
 
 
+    % 31) Encryption configuration actions
+        ? choose "create encrypted volumes"
+        ~ This will initialize the setup process where you’ll later select which 
+            ~ partitions to encrypt and define the encryption method (like AES)
 
+![WhatsApp Image 2025-10-22 at 21 16 06_3e05ff41](https://github.com/user-attachments/assets/9d0e7298-d155-4230-8069-094520ec2f54)
 
 
 
