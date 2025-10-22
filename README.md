@@ -30,7 +30,6 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
                      note for version : Debian (64-bit)
 ![9](https://github.com/user-attachments/assets/1c33b15d-c3ab-42f6-a8dd-51ba7fb7f2f8)
 
-
              Allocate RAM memory
                  Select the amount of RAM memory to reserve for the virtual machine
                  Recommended: 1024MB (1GB) minimum, 2048MB (2GB) for better performance
