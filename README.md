@@ -149,8 +149,8 @@ setup your vm / installing debian
         ~ This is the password for the administator (root) account
         # Be sure to remember it — this account has full system control.
         $ re-enter password to verify
-![info](https://github.com/user-attachments/assets/2dbbd553-d3d1-4341-9a99-fb35f1dd3d09)
-![info](https://github.com/user-attachments/assets/83677a9c-4472-45e3-a05a-5a6bcf84727c)
+![111](https://github.com/user-attachments/assets/290b223d-0ea3-449b-b0f6-4f1df6bf1f4e)
+![222](https://github.com/user-attachments/assets/1e723768-c814-47b0-82a8-8e31f0774dfc)
 
     % 8) set the full name for new user
         ? It must be intra name 
