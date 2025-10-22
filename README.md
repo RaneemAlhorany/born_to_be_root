@@ -237,8 +237,9 @@ setup your vm / installing debian
         ? /boot - static files of the boot loader
         ~ This partition will store static boot loader files — files required to start the operating system (like GRUB).
         Example: /boot contains the Linux kernel and GRUB configuration
+![503793092-9aca80dc-072b-4d45-9531-19da9e5772ac](https://github.com/user-attachments/assets/c606fc30-f685-41e0-a9df-5fb3cf7d4d19)
 
-![info](https://github.com/user-attachments/assets/9aca80dc-072b-4d45-9531-19da9e5772ac)
+
 
 
     % 21) partition setting:
