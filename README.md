@@ -19,7 +19,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
 
              click on new button to create new virtual machine (VM)
-![new](https://github.com/user-attachments/assets/3970fa34-ab04-4729-86c8-76708dd3d8f5)
+![503703132-3970fa34-ab04-4729-86c8-76708dd3d8f5](https://github.com/user-attachments/assets/c951cd44-ba52-484b-952f-e66de982d171)
 
              enter info to create virtual machine (VM) : 
                     Name  + folder (location) + Type + version
