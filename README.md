@@ -58,7 +58,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 
      4) select the Virtual Machine (VM) that created 
      5) choose setting
-![info](https://github.com/user-attachments/assets/18013b84-62c9-475b-bafe-448ec1ea5b2b)
+![503727360-18013b84-62c9-475b-bafe-448ec1ea5b2b](https://github.com/user-attachments/assets/27d26a53-ff6b-4a59-b436-77d53c454f51)
 
     
          storage 
