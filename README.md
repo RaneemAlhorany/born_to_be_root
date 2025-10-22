@@ -681,6 +681,8 @@ setup your vm / installing debian
 
 
 
+
+
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for srv:
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -692,8 +694,37 @@ setup your vm / installing debian
 ![666](https://github.com/user-attachments/assets/233f0717-1059-4337-b0cb-e6595baeac7e)
 
 
+
+
+
+
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-               for swap :
+               for swap : (we will make an exception because the file system will be different)
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![111](https://github.com/user-attachments/assets/93c8e320-4fc7-4a25-8521-b49ab73ff8eb)
+![222](https://github.com/user-attachments/assets/cde20bba-3cb2-4ade-88e4-e3d6f80e8403)
+![333](https://github.com/user-attachments/assets/c14722ca-31df-4101-adbf-1b6068144ee5)
+![444](https://github.com/user-attachments/assets/f0963756-f2cc-439e-a977-fc1280b7de85)
+
+
+
+
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for tmp:
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+![111](https://github.com/user-attachments/assets/caf3497d-9305-4ce2-8ee7-8696c4861e48)
+![222](https://github.com/user-attachments/assets/195d4203-22cd-4076-af6f-a9e2f6a26853)
+![333](https://github.com/user-attachments/assets/269b6cb1-4373-47d0-9dca-ecf14368f227)
+![444](https://github.com/user-attachments/assets/c40c4c6c-0544-4549-9446-a07a8f6158d1)
+![555](https://github.com/user-attachments/assets/b9f8b391-2a6b-40ab-b665-dc2a1d4d03e1)
+![666](https://github.com/user-attachments/assets/32c8cbe2-59b3-4dc9-9935-ea48276a3dcf)
+
+
+
+
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for var :
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -707,6 +738,13 @@ setup your vm / installing debian
 
 
 
+
+
+
+
+
+
+     
             
             ~ Now, assign the correct mount point depending on the name of the volume
             Logical Volume	    Mount Point
