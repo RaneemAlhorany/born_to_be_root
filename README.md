@@ -39,7 +39,8 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
                  recommended : 2 CPUs
                  note : you can allocate momory + processor as you want 
               after finish allocate memry + processor enter on the next
-![info](https://github.com/user-attachments/assets/1dbaf778-5ff4-4347-b6b2-21cb5214b497)
+<img width="399" height="228" alt="Screenshot 2025-10-22 142231" src="https://github.com/user-attachments/assets/064bf9fd-f712-4d51-a559-8c5cf45c4480" />
+
 
              Virtual Hard Disk:
                  choose the option : create a virtual hard disk now 
