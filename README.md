@@ -280,8 +280,34 @@ setup your vm / installing debian
 ![WhatsApp Image 2025-10-22 at 19 51 33_f0e8f6f7](https://github.com/user-attachments/assets/588fdd92-3f1e-4d16-a3d2-a4e28e80c7d0)
 
 
+      % 25)Type for the new partition:
+             ~ Since we’ll use this partition later to build an LVM (Logical Volume Manager) setup
+             ? choose : logical 
+             ~ Logical partitions allow flexible management and multiple logical volumes inside them
+
+![WhatsApp Image 2025-10-22 at 19 59 11_7d401848](https://github.com/user-attachments/assets/e99419b2-ebb3-4602-95b5-5b0de8a3a436)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    % 26) partition settings:
+        ? go to the Mount point and choose it
+    % 27) Mount point for this partition:
+        ? choose "Do not mount it "
+    % 28) partition settings:
+       ? choose : done setting up the partition
+       ~ This confirms and saves the logical partition configuration
 
 
 
