@@ -177,8 +177,7 @@ setup your vm / installing debian
         ? choose manual 
         ~ When you reach disk partitioning, select Manual mode
         ~ This gives you full control over how to divide and use your virtual disk
-![info](https://github.com/user-attachments/assets/87391d40-2454-4e31-a9f5-6a7df148a23d)
-
+![503776534-87391d40-2454-4e31-a9f5-6a7df148a23d](https://github.com/user-attachments/assets/f3be0964-613a-4186-9816-49df48cfa0d9)
 
     % 12) select the storage location  (partition disk)
         ~ Choose your virtual hard disk. It should look something like:
