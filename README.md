@@ -264,6 +264,12 @@ setup your vm / installing debian
 
 ![WhatsApp Image 2025-10-22 at 19 23 44_b80c6251](https://github.com/user-attachments/assets/5bce1746-c6e0-4188-a6dd-fcfb0c660a29)
 
+    % 23) How to use this free space
+        ? choose "create a new partition "
+        ~ This allows you to manually create additional partitions later (like /, /home, or swap) 
+            ~ inside the encrypted volume
+
+![WhatsApp Image 2025-10-22 at 19 34 28_91ca76d0](https://github.com/user-attachments/assets/8a9ba128-7b59-42db-b1f9-1754483c95c6)
 
 
 
