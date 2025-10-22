@@ -422,3 +422,37 @@ setup your vm / installing debian
 
 
 
+
+       % 37) ENcryption passphrase (for password)
+             ~ Again we will have to enter a password, this time it will be the encryption phrase
+             ~ As I have previously told you, you must repeat the process and you must write 
+             ~ it down, since it will be important in the future
+             ? add your password
+             * This passphrase protects the encrypted data — you’ll need it every time the system boots.
+             * Make sure to write it down and store it safely,
+                     * because if you lose it, you’ll lose access to all encrypted data
+![WhatsApp Image 2025-10-22 at 22 17 44_321318f4](https://github.com/user-attachments/assets/2061f8d7-c181-454d-a475-4177ec9e0eaf)
+
+
+
+
+                    
+         % 38) Re-enter passphrase to verify:
+             ? re enter the previous password
+             ~ Enter the same encryption password again to confirm it
+![WhatsApp Image 2025-10-22 at 22 23 24_c6bd4e51](https://github.com/user-attachments/assets/2f25f89b-0475-4546-b437-41ae8a440c64)
+
+
+
+
+
+
+             
+         % 39) partition disks
+             ? choose "Cofigure the logical volume manager (LVM)"
+             ~ LVM allows you to create flexible partitions inside the encrypted space —
+             ~ it’s like a layer that helps you manage your storage more easily.
+         % 40) Write the changes to disks and configure LVM?
+             ~ The installer will ask if you want to apply the changes before creating LVM
+             ?  choose "yes"
+             ~ This commits your encryption and prepares the system to build the logical volumes
