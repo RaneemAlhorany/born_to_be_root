@@ -246,7 +246,7 @@ setup your vm / installing debian
         ~ We finish configuring the current partition
         ? After setting the mount point, select “Done setting up the partition.”
         ~ This means you’ve finished configuring the /boot partition
-![info](https://github.com/user-attachments/assets/86178aca-bb7e-4dde-a0e9-227c2e198b26)
+![503794139-86178aca-bb7e-4dde-a0e9-227c2e198b26](https://github.com/user-attachments/assets/91701176-46b3-4a19-b4da-58c38f12a259)
 
 
 
