@@ -727,25 +727,28 @@ setup your vm / installing debian
                for var :
      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+![111](https://github.com/user-attachments/assets/4c19a10c-135f-46b8-821a-5b7ee6a7a72a)
+![222](https://github.com/user-attachments/assets/d17f3a78-e1c8-46b3-9ff1-f70f5fb192d7)
+![333](https://github.com/user-attachments/assets/0cb9ff80-d2de-46ac-8986-3824935084e1)
+![444](https://github.com/user-attachments/assets/2d903497-dd71-4705-b686-d7bb675dcb23)
+![555](https://github.com/user-attachments/assets/5e56b5d8-3c28-4ebe-ac0f-3e877d92d141)
+![666](https://github.com/user-attachments/assets/14a64996-4838-4bc1-8ddc-9e07c894903a)
 
 
 
 
 
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               for var-log :
+     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+![111](https://github.com/user-attachments/assets/ff2a8fd5-439f-4080-a0dd-a7ce0a9eb2b7)
+![222](https://github.com/user-attachments/assets/654c7182-3e9d-491c-b191-9ffc4212d420)
+![333](https://github.com/user-attachments/assets/17f7c971-5893-4085-b402-15e3919fae09)
+![444](https://github.com/user-attachments/assets/2153dbaa-b217-4810-ace5-611bf8724f50)
+![555](https://github.com/user-attachments/assets/167c9b9b-e5bf-44cd-b201-ced52ec102f0)
+![666](https://github.com/user-attachments/assets/9c2e38a9-8582-4379-96da-a5bbb08964af)
+![777](https://github.com/user-attachments/assets/391195f1-cf82-443f-9db6-8768e91c0f1a)
 
-
-
-
-
-
-
-
-
-
-
-
-     
-            
             ~ Now, assign the correct mount point depending on the name of the volume
             Logical Volume	    Mount Point
                 root               /
@@ -760,20 +763,87 @@ setup your vm / installing debian
                 ? Its correct file system (Ext4 or Swap)
                 ? Its correct mount point (/, /home, /var, etc.)
                 ? And be ready for installation.
+                
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+    % 56) configure  ISCSI volumes 
+        ? choose "finish partitioning and write changes to disk"
+        ~ This means you have completed all your partition setup (LVM, encryption, etc.)
+        ~ and you are ready to apply these changes permanently to the disk
+![WhatsApp Image 2025-10-23 at 02 31 37_89bd4b9d](https://github.com/user-attachments/assets/38673dbd-b013-4def-a9a7-da19473abd3e)
+
+
+
+
+
+    % 57) Confirm changes , configure the package manager
+        ? choose "yes"
+        ~ This confirms writing all partition and file system configurations to the disk.
+        ~ After this step, the actual installation of the base system will begin. 
+        ~ This allows the Debian installer to set up the APT package manager,
+        ~ which is responsible for installing and updating software packages later
+![WhatsApp Image 2025-10-23 at 02 33 55_e923cd12](https://github.com/user-attachments/assets/0a9a72de-6955-41e6-8909-ad0779b3f110)
+
+            
+
+
+
+       % 58) scan extra installation media 
+             ? choose "no"
+             ~ This means you don’t have any additional installation media (like a DVD or USB with extra packages)
+![WhatsApp Image 2025-10-23 at 02 41 50_e4ab5cd6](https://github.com/user-attachments/assets/e4c10e77-4d37-489f-a31c-14233ed91ccb)
+
+
+
+
+
+ 
+    % 59) Debian archive mirror country
+        ? choose "United states"
+        ~ You’re selecting the country closest to you or where the fastest mirror is located.
+        ~ (You can choose any, but “United States” is reliable.)
+![WhatsApp Image 2025-10-23 at 02 44 38_d986b5c9](https://github.com/user-attachments/assets/42282390-f8ed-4f9a-87eb-e289bef847b6)
+
+
+
+
+
+    % 60) Debian archive mirror 
+        ? choose "deb.debian.org"
+        ~ This is the main Debian repository where packages are downloaded from.
+![WhatsApp Image 2025-10-23 at 02 46 18_0cd984d1](https://github.com/user-attachments/assets/5978c0cb-1c0a-479b-b222-99973dcfea53)
 
 
 
 
 
 
+    % 61) HTTP proxy information 
+        ? Leave this field empty/blank and continue (blank for none)
+        ~ (Only fill this if your network uses a proxy server — most users don’t.)
+![WhatsApp Image 2025-10-23 at 02 47 58_5b420687](https://github.com/user-attachments/assets/acd1db09-a879-44c7-9d2d-d8e17a4d85a9)
+
+
+     
+
+        % 62) participate in the package usage survey?
+             ? chhose "No"
+             ~ We do not want developers to see our statistics
+             ~ This disables sending anonymous software usage statistics to Debian developers.
+![WhatsApp Image 2025-10-23 at 02 50 53_798012ae](https://github.com/user-attachments/assets/78210725-df56-4165-8e15-c6ac0622677b)
 
 
 
 
-
-
-
-
+        
+    % 63) choose software to install
+        ? remove all software options (with the space bar) and click Continue since in the subject they are forbidden
+        # Unselect all software options using the Space bar, then click Continue
+        ~ According to the project instructions, installing any preconfigured 
+        ~ software (like desktop environments) is forbidden so We only install the bare minimum base system.
+![WhatsApp Image 2025-10-23 at 02 52 26_12ea22a4](https://github.com/user-attachments/assets/a1e5f87b-5a30-457c-ad6d-e93694fa0f49)
 
 
 
@@ -781,4 +851,68 @@ setup your vm / installing debian
 
 
      
-     
+        % 64) install the GRUB boot loader to your primary drive?
+             ? choose "yes"
+             ~ GRUB is the program that lets your system boot Debian at startup
+![WhatsApp Image 2025-10-23 at 02 54 47_4b25b343](https://github.com/user-attachments/assets/864cf830-6f06-45e5-82c8-66065c46e08a)
+
+
+
+
+
+    % 65) Device for boot loader installation
+        ?choose "/dev/sda (ata-VBOX_HARDDISK_###############)"
+        # This installs the boot loader on your main virtual hard drive
+![WhatsApp Image 2025-10-23 at 02 56 57_d9e356e3](https://github.com/user-attachments/assets/a80585be-cb44-47bf-8112-64a4838dc01b)
+
+
+
+
+
+
+    % 66) please choose <Continue> to reboot
+        ? choose "continue"
+        ~ Your installation is now finished — Debian will restart
+![WhatsApp Image 2025-10-23 at 03 00 29_66cb2565](https://github.com/user-attachments/assets/e479280d-e5c5-46a2-b1ec-f14760682cc0)
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Virtual machine setup
+
+
+
+    % 67) it will reload and appear the black screen 
+        ~ This is normal — it means the system is booting from your encrypted disk for the first time.
+    % 68) after load it enter the LVM password (last password you enterd) 
+        ? we write it in the step is 37
+        ~ When prompted, enter the encryption password (the one you set in Step 37)
+        ~ This decrypts your LVM volume group so Debian can boot
+![WhatsApp Image 2025-10-23 at 03 04 08_4ae393e2](https://github.com/user-attachments/assets/819f8b9c-0996-469a-8b13-66b22dd2098f)
+
+
+
+    % 69) then enter the user name of the user + password (new user) the step  is 9 + 10
+        ? Enter your username and password (from steps 9 + 10) to access the system
+![WhatsApp Image 2025-10-23 at 03 07 47_913187af](https://github.com/user-attachments/assets/485f0f0f-6cf2-4601-94b4-862e141261e5)
+
+
+wellcome :
+![WhatsApp Image 2025-10-23 at 03 11 46_8cbcae4f](https://github.com/user-attachments/assets/90aa41ed-52fb-45b1-abd4-d37621d77532)
+
+
+
+
+
+
+
+
+
+
+
