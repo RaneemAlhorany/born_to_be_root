@@ -1053,14 +1053,21 @@ Implement basic security and service settings within the system itself (from wit
 
      
 
-4) Installing & configuring SSH
+3) Installing & configuring SSH
 
 
-5) Installing & configuring UFW 🔥🧱 Firewall
+4) Installing & configuring UFW 🔥🧱 Firewall
 
 
-6) sudo policies
+5) sudo policies
 
-7) 
+6) password policy 🔑
+
+7) Script
+
+8) Crontab
+
+9) Signature.txt
+
 
 
