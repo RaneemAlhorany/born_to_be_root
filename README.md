@@ -917,6 +917,9 @@ wellcome :
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Virtual machine setup
+Virtual Machine Configuration
+Implement basic security and service settings within the system itself (from within the terminal after logging in)
+
 
      note : all command that use bellow also i write it inside file called sudo command
 
@@ -1023,6 +1026,25 @@ Virtual machine setup
                 % This number is used by the system to manage permissions and access control for files and processes
 ![WhatsApp Image 2025-10-24 at 06 06 03_3362f409](https://github.com/user-attachments/assets/69d6f8a1-8993-4e7c-95f3-958c5a776dc4)
 
+
+        ^ D)add user to the group (should be done as root user)
+              how to  Add a user to Group
+                  write the following command  :  sudo adduser  <username> <groupname> 
+                example : sudo adduser  ralhoura  user42
+               note:
+                     ? depending on the subject you should add the new user "ralhoura" to the group "user42" + sudo
+                      ~ This command adds the user "ralhoura" to the group "user42"
+                      ~ This allows the user to inherit the permissions and access rights associated with that group
+                      ~ After executing this command, the user "ralhoura" will be a member of the "user42" group
+![WhatsApp Image 2025-10-24 at 06 19 24_ab3fa70b](https://github.com/user-attachments/assets/34a2f496-afef-4900-a64c-687f2ef534ae)
+
+
+     ^ E) Verify group membership
+              You can verify this by checking the group membership of the user
+            ~ To verify user group membership to see the groups a user belongs to
+                %  "getent group sudo NAMEGROUP NAMEGroup ...." 
+                example : getent group  USER42
+                example : getent group sudo USER42 sudo
 
 
 
