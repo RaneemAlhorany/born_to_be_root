@@ -918,17 +918,30 @@ wellcome :
 
 Virtual machine setup
 
+     note : all command that use bellow also i write it inside file called sudo command
+
  1) Installing sudo & configuration of user and groups
 
+             ^1) Switch to root user
+                % write "Su" in the terminal 
+                 enter the root password (the one you set in Step 7)
+                 ? you add the root password when you setup the virtual machine
+            ~ This command allows you to execute commands with superuser (root) privileges
+![11](https://github.com/user-attachments/assets/42a1ace3-71a8-4c03-b2b6-1387c01c77b6)
+![22](https://github.com/user-attachments/assets/b0b1185d-2f28-4bc6-ac7c-bba064f74a1f)
+![333](https://github.com/user-attachments/assets/b2718e8c-41a5-41d7-8a97-7ce7bf38d740)
 
-2) Installing & configuring SSH
+
+     
+
+3) Installing & configuring SSH
 
 
-3) Installing & configuring UFW 🔥🧱 Firewall
+4) Installing & configuring UFW 🔥🧱 Firewall
 
 
-4) sudo policies
+5) sudo policies
 
-5) 
+6) 
 
 
