@@ -932,6 +932,54 @@ Virtual machine setup
 ![333](https://github.com/user-attachments/assets/b2718e8c-41a5-41d7-8a97-7ce7bf38d740)
 
 
+
+
+        ^2) Install sudo package:     
+            $ Once we have accessed the root user, 
+            $ enter the "apt install sudo" command 
+                ~ to install the necessary packages
+                ~ This command tells the package manager to install the required packages for sudo
+            $ enter "y" to prompted to confirm the installation
+
+![WhatsApp Image 2025-10-24 at 04 37 56_b9a8f149](https://github.com/user-attachments/assets/10a6c531-3ccd-494c-9e60-2e02777bfac3)
+
+        ^ 3) Reboot the system 
+            $ write "sudo reboot" command and wait for it to reboot
+            ~  We must reboot the machine so the changes can be applied
+
+![WhatsApp Image 2025-10-24 at 04 46 20_564bf47d](https://github.com/user-attachments/assets/a3b38172-c095-4d83-b959-8cf28e76a8eb)
+
+
+             ^ 4) AFTER reboot we need to Verify installation
+            ! 1) write the passowrd of the lvm (encription password)  LVM password (last password you enterd) 
+        ? we write it in the step is 37
+![WhatsApp Image 2025-10-24 at 04 52 37_6f24ac51](https://github.com/user-attachments/assets/73a870bc-7ce8-4a62-bdc4-52517a3510f4)
+
+        
+            2) write the user password again to switch to root user
+                ~ enter the new user username + password (the one you set in Step 9 + 10)
+
+![WhatsApp Image 2025-10-24 at 04 54 05_b58a3abd](https://github.com/user-attachments/assets/f63f25c7-1ff5-4b0f-8e83-201c7f3f1583)
+
+     ! 3) convert into root use by wrte 
+          // su then the password of the root (the one you set in Step 7)
+
+![WhatsApp Image 2025-10-24 at 04 57 46_45d86e28](https://github.com/user-attachments/assets/c43fe115-9d71-46dd-871a-6ddb307287df)
+
+
+          
+               ! 4) Check sudo version by
+                $ write "sudo -V"
+            ~ This command will display the sudo version and configuration details if the installation was successful
+
+
+![WhatsApp Image 2025-10-24 at 05 01 00_5a86d728](https://github.com/user-attachments/assets/6f2d6b83-6e99-4572-9c43-416a5c5364b4)
+
+
+
+
+
+
      
 
 3) Installing & configuring SSH
