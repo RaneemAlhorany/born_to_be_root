@@ -1050,24 +1050,66 @@ Implement basic security and service settings within the system itself (from wit
 
 
 
-
-     
-
 3) Installing & configuring SSH
 
 
-4) Installing & configuring UFW 🔥🧱 Firewall
+         ^ note : if you are not as a root user you nooed to do the following 
+                  a) Switch to root user:
+                       $ write the "su" command 
+                       ~ then  Enter the root password (set in Step 7).
+             ? This gives administrative privileges to perform installations and configurations.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+     
+         ^ 1) Update the system:
+               how to  update the system
+                  write the following command  : sudo apt update
+                  ~ This command refreshes the package repositories defined in /etc/apt/sources.list
+                  ~ It ensures your system knows about the latest available package versions.
+
+![WhatsApp Image 2025-10-24 at 06 52 31_1da698eb](https://github.com/user-attachments/assets/307af067-70a4-4631-bddb-e66719955938)
+
+    ^ 2) Install OpenSSH server package:
+        # sudo apt install openssh-server
+        ~ OpenSSH allows secure remote login using the SSH protocol.
+        ~ When prompted, type “Y” to confirm installation.
+        ~ Wait until the installation process completes.
+edit image 
+![image](https://github.com/user-attachments/assets/b467631a-fac1-45b5-b2f4-6acc231ed2c6)
+
+         ^ 3) Verify installation:
+        # sudo service ssh status
+        ~ You should see: “Active (running)” and “enabled”.
+        ? This confirms that SSH is installed and running correctly.
+![WhatsApp Image 2025-10-24 at 07 06 24_dee94734](https://github.com/user-attachments/assets/bd5e9f72-8ae7-47a3-b4c8-409f2bae347d)
 
 
-5) sudo policies
 
-6) password policy 🔑
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
-7) Script
+complete the following and the reminder of ssh 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-8) Crontab
 
-9) Signature.txt
+
+
+
+
+
+        
+
+5) Installing & configuring UFW 🔥🧱 Firewall
+
+
+6) sudo policies
+
+7) password policy 🔑
+
+8) Script
+
+9) Crontab
+
+10) Signature.txt
 
 
 
