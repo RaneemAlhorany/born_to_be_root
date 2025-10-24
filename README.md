@@ -1040,11 +1040,12 @@ Implement basic security and service settings within the system itself (from wit
 
 
      ^ E) Verify group membership
+               how to  Verify if the user is inside  Group or not:
+                       write the following command  : getent group  NAMEGROUP NAMEGroup ...." 
               You can verify this by checking the group membership of the user
-            ~ To verify user group membership to see the groups a user belongs to
-                %  "getent group sudo NAMEGROUP NAMEGroup ...." 
                 example : getent group  USER42
                 example : getent group sudo USER42 sudo
+![WhatsApp Image 2025-10-24 at 06 33 34_f73dc3a8](https://github.com/user-attachments/assets/b2aab366-5cf4-4dca-8241-a348fc32549d)
 
 
 
