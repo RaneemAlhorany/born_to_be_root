@@ -920,7 +920,7 @@ Virtual machine setup
 
      note : all command that use bellow also i write it inside file called sudo command
 
- 1) Installing sudo & configuration of user and groups
+ 1) Installing sudo 
 
              ^1) Switch to root user
                 % write "Su" in the terminal 
@@ -976,20 +976,68 @@ Virtual machine setup
 ![WhatsApp Image 2025-10-24 at 05 01 00_5a86d728](https://github.com/user-attachments/assets/6f2d6b83-6e99-4572-9c43-416a5c5364b4)
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2) configuration of user and groups
+     
+        ^ A) add user
+             note :
+                  you need to be in the root user to create a users
+                       so if not in the root follow the following instruction to Switch to root user
+                                  % write "Su" in the terminal 
+                                  % enter the root password (the one you set in Step 7)
+             how to  Add a new user
+                  write the following command  : sudo adduser nameUser
+                              ? note :  as a subject add your entra name
+                                      If you had already done it will show the same message as is the image.
+![WhatsApp Image 2025-10-24 at 05 48 39_dafb1f8e](https://github.com/user-attachments/assets/815624a4-31d5-4e71-9611-0a5bc1701b65)
+
+          
+
+        ^ B) Creating a group (should be done as root user)
+             how to  Add a new Group
+                  write the following command  :  sudo addgroup NmeGroup
+               note: 
+                      ? We will create a new group called "user42" as the subject indicates
+               note :
+                     it will give you message : adding group "nameGroup" (GID ###) or not
+                     ~ if you dont have any message like this you can check if the group is created or not by the next step
+![WhatsApp Image 2025-10-24 at 05 56 19_90862bb5](https://github.com/user-attachments/assets/037bf382-8a34-4dac-9a09-fe18a9f9b922)
+
+
+        ^ C) check if the group  is exit or not
+              check if the  Group is exit or not:
+                  write the following command  :   getent group <groupname>
+                  example : getent group user42
+            ~ it will give you message like this :
+               ? user42:x:1001:
+            the meaning of the message is :
+                $ user42 : the name of the group
+                $ x : a placeholder for the password field (not used here)
+                $ 1001 : the GID (Group ID) of the group
+            ~ What is GID ?
+                % It's the group identifier, in short, Group id
+                % Each group in a Linux system has a unique GID assigned to it
+                % This number is used by the system to manage permissions and access control for files and processes
+![WhatsApp Image 2025-10-24 at 06 06 03_3362f409](https://github.com/user-attachments/assets/69d6f8a1-8993-4e7c-95f3-958c5a776dc4)
+
+
 
 
 
 
      
 
-3) Installing & configuring SSH
+4) Installing & configuring SSH
 
 
-4) Installing & configuring UFW 🔥🧱 Firewall
+5) Installing & configuring UFW 🔥🧱 Firewall
 
 
-5) sudo policies
+6) sudo policies
 
-6) 
+7) 
 
 
