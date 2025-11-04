@@ -1165,6 +1165,13 @@ Restart SSH service to apply changes:
         ? If not, review your configuration file for typos.
 ![WhatsApp Image 2025-11-04 at 12 54 31_78f6c786](https://github.com/user-attachments/assets/4c892001-839e-4696-8dc4-06c781b23c86)
 
+note :
+
+     By following these steps, you will have successfully installed and configured the OpenSSH server on your Debian system.
+     This setup allows secure remote access to your machine while adhering to the specified security policies.
+
+
+
 
 Connecting via SSH
 
