@@ -1175,9 +1175,66 @@ note :
 
 Connecting via SSH
 
+      connecting to the virtual machine via SSH from the host machine
+      Port Forwarding Configuration (for VirtualBox):
+
+     To connect from host to the virtual machine:
+
+     1) Close the virtual machine (VM)
+![WhatsApp Image 2025-11-04 at 13 38 33_ea8a5a46](https://github.com/user-attachments/assets/7eacc303-6b81-4ee3-b752-17b684ae0f16)
+
+                
+       2) Select the VM then Settings
+![WhatsApp Image 2025-11-04 at 13 40 35_1c31a79a](https://github.com/user-attachments/assets/fe7a6875-3684-4f32-9101-c60617dfd108)
+
+       3)  go to  Network then Expand “Advanced” → Click “Port Forwarding”
+
+![WhatsApp Image 2025-11-04 at 13 44 14_bca41ec5](https://github.com/user-attachments/assets/04511acd-d988-43aa-9514-07b72830b419)
+
+     
+       4) Click the (+) icon to add a new rule / Click on the emoji for adding a new rule
+
+![WhatsApp Image 2025-11-04 at 13 47 06_54dc7848](https://github.com/user-attachments/assets/13e3a3d8-7d40-4288-9ccb-e1520c0ac7d3)
+
+     5) in the new rule you have to add the following :
+                % Name : SSH
+                % Protocol : TCP
+                % Host IP :
+                % Host Port : 4242 or 4241
+                % Guest IP :
+                % Guest Port : 4242
+                ~ Lastly we will add the 4242 port to host and Guest port. 
+                $ Sometimes a connection issue can occur if the ports are the same. 
+                $ It would be better if they are different, like 4241 (HOST) : 4242 (GUEST) 
+      after adding the information click on OK to save the changes
+      
+![WhatsApp Image 2025-11-04 at 13 53 10_9cb53151](https://github.com/user-attachments/assets/4c16270a-44f6-4860-a159-0bcfb9699da4)
+
+
+      6) after adding the information click on OK to save the changes
+![WhatsApp Image 2025-11-04 at 13 57 51_1ecd559a](https://github.com/user-attachments/assets/4d0a7d4b-34a7-4873-968d-b11a9181f605)
+
+Connect from Host to Virtual Machine:
+
+     1) open the terminal in your host machine
+     
+     2) To connect to the virtual machine from the host machine, open a terminal on the host and type :
+             ssh <username>@localhost -p 4242  (non root user)
+             
+               replace <username> with the username you created during the VM setup (step 9)
+               Enter your user password when prompted.
+
+            ~ This command initiates an SSH connection to the virtual machine running on localhost at port 4242
+            ! Once authenticated, the login prompt will appear in green prompt (login shell), indicating a successful connection.
+
+// put the image when you are in 42 campus cuz it not work here
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 complete the following and the reminder of ssh 
+
+    
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
