@@ -1150,6 +1150,23 @@ edit the second file :
 ![WhatsApp Image 2025-11-04 at 12 10 18_dcb4eb8e](https://github.com/user-attachments/assets/9bebe2d4-8246-414e-bb3d-224f42537e19)
 
 
+Restart SSH service to apply changes:
+     
+        (must restart the ssh service so it can be updated)
+        # sudo service ssh restart
+        ~ This reloads the SSH configuration with your updated settings
+
+![WhatsApp Image 2025-11-04 at 12 37 20_90616d74](https://github.com/user-attachments/assets/be066684-04e4-4a53-8c34-785537437dfd)
+
+ Verify SSH service status again:
+ 
+        # sudo service ssh status
+        ~ Should show “Active (running)” and mention “port 4242”.
+        ? If not, review your configuration file for typos.
+![WhatsApp Image 2025-11-04 at 12 54 31_78f6c786](https://github.com/user-attachments/assets/4c892001-839e-4696-8dc4-06c781b23c86)
+
+
+Connecting via SSH
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
