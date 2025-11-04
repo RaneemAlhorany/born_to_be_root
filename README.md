@@ -1074,8 +1074,7 @@ Implement basic security and service settings within the system itself (from wit
         ~ OpenSSH allows secure remote login using the SSH protocol.
         ~ When prompted, type “Y” to confirm installation.
         ~ Wait until the installation process completes.
-edit image 
-![image](https://github.com/user-attachments/assets/b467631a-fac1-45b5-b2f4-6acc231ed2c6)
+![WhatsApp Image 2025-11-04 at 10 13 33_b4bad42f](https://github.com/user-attachments/assets/88318a99-1089-4afd-95fe-877647df59bd)
 
          ^ 3) Verify installation:
         # sudo service ssh status
