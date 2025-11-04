@@ -1082,6 +1082,7 @@ Implement basic security and service settings within the system itself (from wit
         ? This confirms that SSH is installed and running correctly.
 ![WhatsApp Image 2025-10-24 at 07 06 24_dee94734](https://github.com/user-attachments/assets/bd5e9f72-8ae7-47a3-b4c8-409f2bae347d)
 
+Configuring SSH
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
