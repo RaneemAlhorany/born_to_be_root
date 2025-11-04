@@ -1085,6 +1085,46 @@ Implement basic security and service settings within the system itself (from wit
 Configuring SSH
 (configure the SSH service by editing its configuration files)
 
+    //! note:
+               you should be in root mo if you are not as a root user you need to do the following 
+           Switch to root user:
+                $ write the "su" command 
+                ~ then  Enter the root password (set in Step 7).
+      ? This gives administrative privileges to perform installations and configurations.
+
+
+steps : we wiil edit 2 file (/etc/ssh/sshd_config , 
+
+edit the first file :
+
+     1) You can open it with a text editor such as Nano or VIM.
+            # nano /etc/ssh/sshd_config
+            or
+            # sudo nano /etc/ssh/sshd_config
+
+        ~ To install VIM (optional): if you want to use it 
+            # sudo apt install vim 
+![WhatsApp Image 2025-11-04 at 11 38 15_71f302cc](https://github.com/user-attachments/assets/9d550854-f380-4c22-8609-f90e7bdd28c3)
+
+
+     2) Modify the configuration
+          note : In the file, lines starting with (#) are commented out
+          Uncomment (remove #) and modify the following lines:
+
+            1) Change SSH port:
+                # Find “#Port 22” → change to “Port 4242”
+
+            2) Disable root login:
+                # Find “#PermitRootLogin prohibit-password”
+                # Change to “PermitRootLogin no”
+                
+       ~ Save and exit:
+            * In Nano: Ctrl + X → Y → Enter
+            * In VIM:  press Esc → type :wq → Enter
+
+![WhatsApp Image 2025-11-04 at 11 45 16_55dce424](https://github.com/user-attachments/assets/1be7c748-6cb6-4a63-b9e3-f854596e77dd)
+
+edit the second file :
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
