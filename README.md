@@ -1126,7 +1126,28 @@ edit the first file :
 
 edit the second file :
 
+      1) You can open it with a text editor such as Nano or VIM.
+        # nano /etc/ssh/ssh_config
+        or
+        # sudo nano /etc/ssh/ssh_config
 
+    ~ To install VIM (optional): if you want to use it 
+        # sudo apt install vim 
+        
+![WhatsApp Image 2025-11-04 at 12 05 28_bba311dc](https://github.com/user-attachments/assets/04ddc0fd-f069-4720-9825-fa526a458d34)
+
+      2) Modify the configuration
+           note : In the file, lines starting with (#) are commented out
+           Uncomment (remove #) and modify the following lines:
+
+        1) Change SSH port:
+            # Find “#Port 22” → change to “Port 4242”
+         
+        ~ Save and exit:
+             * In Nano: Ctrl + X → Y → Enter
+             * In VIM:  press Esc → type :wq → Enter
+             
+![WhatsApp Image 2025-11-04 at 12 10 18_dcb4eb8e](https://github.com/user-attachments/assets/9bebe2d4-8246-414e-bb3d-224f42537e19)
 
 
 
