@@ -1217,17 +1217,22 @@ Connecting via SSH
 Connect from Host to Virtual Machine:
 
      1) open the terminal in your host machine
-     
-     2) To connect to the virtual machine from the host machine, open a terminal on the host and type :
-             ssh <username>@localhost -p 4242  (non root user)
-             
-               replace <username> with the username you created during the VM setup (step 9)
-               Enter your user password when prompted.
+![WhatsApp Image 2025-11-05 at 14 14 48_f598b6a9](https://github.com/user-attachments/assets/74f5b035-9d68-4969-b860-f716d14761d1)
 
-            ~ This command initiates an SSH connection to the virtual machine running on localhost at port 4242
+
+     2) To connect to the virtual machine from the host machine, open a terminal on the host and type :
+             ssh <username>@localhost -p #PortOfHost  (non root user)
+               replace <username> with the username you created during the VM setup (step 9)
+               Enter your user password when prompted (password the new user (step 10))
+
+![WhatsApp Image 2025-11-05 at 14 53 55_fc523528](https://github.com/user-attachments/assets/4e121901-4610-4b3a-8254-aaec725fc9d6)
+    
+
+            ~ This command initiates an SSH connection to the virtual machine running on localhost at port PortOfHost
             ! Once authenticated, the login prompt will appear in green prompt (login shell), indicating a successful connection.
 
-// put the image when you are in 42 campus cuz it not work here
+![WhatsApp Image 2025-11-05 at 15 05 39_c232ed4b](https://github.com/user-attachments/assets/3e460a0f-4446-4555-9ba8-72084fd97f2a)
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
