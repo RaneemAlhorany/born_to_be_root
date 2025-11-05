@@ -1302,6 +1302,85 @@ Result:
         # All other ports are securely blocked by default.
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+6) sudo policies 
+
+
+Note:
+
+        You must have root privileges to edit sudo configuration files
+        If you are not currently the root user, switch to root mode by:
+                  su
+             Then enter the root password (set in Step 7)
+        This grants you administrative access to perform system-wide configurations
+
+Steps for Configuring SUDO Policies :
+
+
+Step 1: Create the configuration file
+
+        write the following command :
+             touch /etc/sudoers.d/sudo_config
+        This file will store all the custom sudo policies
+        It is safer to add custom sudo rules here instead of editing the main file (/etc/sudoers)
+
+![WhatsApp Image 2025-11-05 at 20 01 03_7ad1dce5](https://github.com/user-attachments/assets/fad2574d-6b2d-484a-9122-079f54a44c84)
+
+
+Step 2: Create the logging directory
+
+        write the following command :
+                  mkdir /var/log/sudo
+        This directory will store logs for all sudo commands — including inputs and outputs.
+        It allows tracking of all sudo activity for auditing or debugging purposes.
+![WhatsApp Image 2025-11-05 at 20 05 03_b5306ced](https://github.com/user-attachments/assets/4fe39015-f847-4b01-aa4d-4cc29895dcf5)
+
+
+Step 3: Edit the sudo configuration file
+
+      write the following command :
+              nano /etc/sudoers.d/sudo_config
+              
+     Opens the file for editing using the Nano text editor
+     You can also use “visudo -f /etc/sudoers.d/sudo_config” for safer editing 
+          (it checks syntax errors before saving).
+
+![WhatsApp Image 2025-11-05 at 20 10 47_a7e2ad1f](https://github.com/user-attachments/assets/be707ae5-819d-4f4f-be9a-e782b55237ce)
+
+
+
+
+Step 4: Add the following configuration lines
+
+        ! note: Each line defines a security or logging policy for sudo behavior.
+            Defaults  password_tries=3
+            Defaults  failed_password_message="The password is incorrect"
+            Defaults  log_file="/var/log/sudo/sudo_config"
+            Defaults  log_input, log_output
+            Defaults  input_output_log_dir="/var/log/sudo"
+            Defaults  requiretty
+            Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+
+![WhatsApp Image 2025-11-05 at 20 23 02_b2e3016f](https://github.com/user-attachments/assets/bf668e52-455a-4d9b-ab83-b7d93fb492eb)
+
+
+Step 5: Save and exit the editor
+
+        * In Nano:
+            Ctrl + X → Y → Enter
+        * In Visudo:
+            Esc → :wq → Enter
+        The file is now saved and active.
+
+Step 6: Verify configuration
+
+         sudo -l
+         Displays the list of current sudo rules applied to your user.
+         You can also check logs using:
+            # tail -f /etc/sudoers.d/sudo_config
+
+
 
    
 //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1315,14 +1394,6 @@ complete the following
 
 
 
-
-
-        
-
-
-
-
-6) sudo policies
 
 7) password policy 🔑
 
