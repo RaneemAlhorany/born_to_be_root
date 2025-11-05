@@ -1235,6 +1235,75 @@ Connect from Host to Virtual Machine:
 
 
 
+5) Installing & configuring (UFW) Firewall
+
+
+ Note:
+ 
+           # UFW stands for "Uncomplicated Firewall" — it’s a simple tool used to manage the firewall in Linux systems easily through simple commands
+           # Before starting, make sure you have administrative (root) privileges
+                     Switch to root user:
+                            su
+                           Then enter the root password (the one you set in Step 7)
+             This grants you permission to install software and make system changes
+
+steps :
+
+        
+Step 1: Install UFW package
+
+          sudo apt install ufw
+        # This command installs the Uncomplicated Firewall on your Debian system
+        # It will download and set up UFW using your internet connection
+![WhatsApp Image 2025-11-05 at 15 33 32_6909951b](https://github.com/user-attachments/assets/a3514bb8-18bd-4858-8828-024fcc5a61c9)
+
+
+
+Step 2: Confirm installation
+
+        # Type "y" and press Enter to confirm the installation process
+        # After this, UFW will be installed but not yet active
+
+![WhatsApp Image 2025-11-05 at 15 33 45_a838c4b7](https://github.com/user-attachments/assets/c94107ff-9e0d-44ac-8f13-010cee60a09f)
+
+
+Step 3: Enable the firewall
+
+        sudo ufw enable
+        # This activates UFW and begins filtering network traffic according to your defined rules
+        # Once enabled the firewall:
+            * All incoming connections are denied by default
+            * All outgoing connections are allowed by default
+        # You’ll see a message confirming: "Firewall is active and enabled on system startup"
+![WhatsApp Image 2025-11-05 at 15 37 27_e111de3a](https://github.com/user-attachments/assets/c5c9880a-1902-4026-a68c-769a39f4ca3e)
+
+
+Step 4: Allow a specific port (4242)
+
+        Since SSH will use port 4242 (based on your previous setup), we must allow it:
+                 sudo ufw allow 4242
+        This tells the firewall to allow incoming SSH connections on port 4242
+        If you forget this step, SSH access from your host machine will be blocked
+
+![WhatsApp Image 2025-11-05 at 15 48 37_d529246d](https://github.com/user-attachments/assets/db0e9294-2db9-4e9a-b53f-7b4154ae10ce)
+
+
+Step 5: Check the firewall status , Check current firewall rules
+                    
+          sudo ufw status
+        ~ This command shows whether the firewall is active and which ports are open.
+![WhatsApp Image 2025-11-05 at 15 49 01_5e106ff7](https://github.com/user-attachments/assets/21d33a1b-d950-4737-88ff-5adb20338433)
+
+
+Result:
+
+        # Your Debian firewall is now active and filtering network traffic.
+        # Port 4242 is open for SSH connections.
+        # All other ports are securely blocked by default.
+
+
+
+   
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 complete the following 
@@ -1250,7 +1319,7 @@ complete the following
 
         
 
-5) Installing & configuring UFW 🔥🧱 Firewall
+
 
 
 6) sudo policies
