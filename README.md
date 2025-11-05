@@ -1380,6 +1380,7 @@ Step 6: Verify configuration
          You can also check logs using:
             # tail -f /etc/sudoers.d/sudo_config
 
+![WhatsApp Image 2025-11-05 at 20 28 40_404d9245](https://github.com/user-attachments/assets/140fe921-00ba-4157-ae9c-ecfacfb3d11f)
 
 
    
