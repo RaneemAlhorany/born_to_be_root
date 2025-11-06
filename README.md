@@ -415,94 +415,89 @@ note :
                   % 44) LVM configuration details
                       ? choose "create logical volume"
                       ~ This option lets you make an individual virtual partition (LV) inside the LVM group
-![WhatsApp Image 2025-10-22 at 22 57 29_c9ace040](https://github.com/user-attachments/assets/d39df4f3-964f-4617-ade0-abba228c5f13)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bce1bdf1-997a-4c56-a1bf-f188daba50ef" />
 
                   % 45) Volume group 
                       ? choose "LVMGroup"
                       ~ We will start by choosing the group where we want them to be created
                       ~ We select the only one available (the one we just created)
                       # That’s the group you created earlier, and it’s where all your logical volumes will be stored
-![WhatsApp Image 2025-10-22 at 22 58 55_cde0dd21](https://github.com/user-attachments/assets/4d94fc60-597b-4bd9-97b9-4bab361031a0)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c794d124-9eb6-4cf4-b7bc-503a7aa4b70d" />
 
 
-
-                  % 46) Logical volume name :
-                      ? write "namefile"
+                  % 46) Logical volume name : write "namefile"
+                      write "root"
                       ~ When prompted for the name, type one of the logical volume names (e.g., root, swap, home, etc.)
                       ~ The order of creation should follow the same sequence as described in the project:
-                              # Start with root and end with var/log
-![WhatsApp Image 2025-10-23 at 00 01 33_fafaf491](https://github.com/user-attachments/assets/029c688b-a037-4fda-876d-632101ff90e8)
-
-
-
                       * This name determines where the mount point will be (for example, root will later be mounted as /)
+                              # Start with root and end with var/log
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e627ee34-9fd0-4162-8973-45f7d4df76f5" />
+
+
                   % 47) Logical volume size :
                       ? write "#GB" or #g
                       ~ Size, as the subject indicates, will be #GB
-![WhatsApp Image 2025-10-23 at 00 11 41_69fa79dc](https://github.com/user-attachments/assets/1d31fab9-563d-4d31-8682-bdd3fe3fd596)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/34742782-fa0b-460d-a5ee-65cd605902a0" />
 
 
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
                for swap :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 00 14 55_6088acab](https://github.com/user-attachments/assets/9ac6e3e1-2585-4582-bf11-b8e6b3bbcb77)
-![WhatsApp Image 2025-10-23 at 00 16 23_91302e08](https://github.com/user-attachments/assets/895b17f9-782b-4397-81f9-ae1e13ccb4d5)
-![WhatsApp Image 2025-10-23 at 00 18 09_522bd204](https://github.com/user-attachments/assets/a8b76e68-245b-40a6-bb55-ad368d5e252c)
-![WhatsApp Image 2025-10-23 at 00 20 21_bbbfb513](https://github.com/user-attachments/assets/dff0397a-5571-409c-aa79-eb13550727ea)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6fbf941e-76f1-4cbe-a0d9-a0e490edba95" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/94163ea2-7c3f-47a0-81ab-b35b97680f70" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0f8a6934-d93a-4227-b5e5-635cd2a048f4" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/13cbe600-ab51-44cf-a33f-5f538c287194" />
 
 
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
                for home :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 00 24 19_b3a8b6b1](https://github.com/user-attachments/assets/6f074d5f-b562-4327-be9f-3f88a4b73b8b)
-![WhatsApp Image 2025-10-23 at 00 25 48_0772e46d](https://github.com/user-attachments/assets/2a5a1305-9032-40f6-9b21-a0cdb3562119)
-![WhatsApp Image 2025-10-23 at 00 27 20_85cecd10](https://github.com/user-attachments/assets/2206fd05-1454-402a-b5e7-2a3bba6d7af7)
-![WhatsApp Image 2025-10-23 at 00 29 30_9ba49e2c](https://github.com/user-attachments/assets/6d2db43b-2e4b-49af-84b0-08a2dd80ca68)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca74f6ec-3b5b-4dd9-ad0a-ac09d8016555" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/69b3ce29-732b-4605-8856-ef104602594c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f33d4b4e-57d8-4c91-811e-a80b8a93f216" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/42c9e684-3885-438a-9054-ce7c2a49c1fc" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for var :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 00 36 57_33ac361d](https://github.com/user-attachments/assets/3c30e95e-e510-42c4-a38b-4152a415c022)
-![WhatsApp Image 2025-10-23 at 00 37 05_00bbc958](https://github.com/user-attachments/assets/6f2bd100-5e13-47cd-baaf-602817851386)
-![WhatsApp Image 2025-10-23 at 00 37 23_5e2032cb](https://github.com/user-attachments/assets/72a0cb50-2dbe-4e23-9457-e9b639203b28)
-![WhatsApp Image 2025-10-23 at 00 38 54_f26be716](https://github.com/user-attachments/assets/686644a8-0af6-411b-8921-e79c77b350bd)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8985fe53-43fd-4c51-a304-dfe0eda226a1" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4e777929-996e-4286-9855-f405f4fd6745" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7a32181b-6311-4152-8641-56696cc27de9" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/37c54851-5fa1-4aa9-9d3d-a38fa1493107" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for srv:
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 00 47 13_7a49b984](https://github.com/user-attachments/assets/57b97807-9441-4be6-8307-e156f7857a6c)
-![WhatsApp Image 2025-10-23 at 00 47 28_76319f69](https://github.com/user-attachments/assets/e154f276-ab31-4e1f-a472-f0537967e235)
-![WhatsApp Image 2025-10-23 at 00 47 49_4ffbb16b](https://github.com/user-attachments/assets/47dcd674-b616-46f6-9c1c-26357e0985a4)
-![WhatsApp Image 2025-10-23 at 00 48 18_55e2d348](https://github.com/user-attachments/assets/dbdb5dfb-66cb-4b14-93fb-5423002f2968)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e906b5fa-8c4b-4dc8-85c3-847150786415" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6d889e4f-11eb-482c-8629-79ff476cebfb" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/653cff5e-cd2b-4058-950e-7a96dc242381" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f8268ec-c4d7-4ee6-8fd2-5ec966bce011" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for tmp:
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 00 53 14_ba9f4ab2](https://github.com/user-attachments/assets/12e686c7-7cb1-4c68-85ec-20b03322bea2)
-![WhatsApp Image 2025-10-23 at 00 53 30_e3baea59](https://github.com/user-attachments/assets/520e939c-cd14-40fc-a97a-e7ce9723145f)
-![WhatsApp Image 2025-10-23 at 00 54 15_bfa23266](https://github.com/user-attachments/assets/52d8a476-6430-425c-bf63-9cf3329ebfea)
-![WhatsApp Image 2025-10-23 at 00 55 37_94286106](https://github.com/user-attachments/assets/a97603e8-2ba5-444a-9ee0-ac30fbf30640)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b689392f-db23-4f61-b2c0-044a3ed915d4" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/61c4e55d-59e0-45c5-aaa8-d0e8fb02b55a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/efc110c1-bbae-4a33-81cc-420e131d5f4e" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8ad979b4-99a4-4dc6-8d0d-9ffa43df86ed" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for var-log :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![WhatsApp Image 2025-10-23 at 01 01 01_2651ee06](https://github.com/user-attachments/assets/11c0caf3-f808-4b90-94f4-e95ccfb3067a)
-![WhatsApp Image 2025-10-23 at 01 01 18_7be6f2e4](https://github.com/user-attachments/assets/0c7e72b0-9522-4024-85d5-f32fda997ee3)
-![WhatsApp Image 2025-10-23 at 01 01 42_95acc9f2](https://github.com/user-attachments/assets/22faf6d0-0b55-40f6-aa25-e37637a2b303)
-![WhatsApp Image 2025-10-23 at 01 02 23_0e3bb8d9](https://github.com/user-attachments/assets/cc954993-02e8-4c40-8454-8a71bd89b495)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fdd686c6-9b64-4567-9242-5f5946cb483d" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b3e744b2-30a4-4d8b-955a-2a9ff2a704d0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d273cba7-1dfd-4cec-8e42-9d0be27fb4f0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0f617cbb-714d-4408-a96b-b8015af1726c" />
 
 
 
@@ -512,178 +507,163 @@ note :
         ~ This will show you all the logical volumes created under 
             ~ LVMGroup — their names, sizes, and status — to confirm everything is correct
           after display it enter continue
-![WhatsApp Image 2025-10-23 at 01 07 22_71983afb](https://github.com/user-attachments/assets/3aa4a525-c5f0-477a-9d39-1aec1a39bba4)
-![WhatsApp Image 2025-10-23 at 01 09 38_d169e933](https://github.com/user-attachments/assets/2134ae89-fad5-4b0e-89af-51145c06e34b)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e1cbe696-a505-472d-a64a-7d854dceadb1" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ffba13cd-b57a-42da-aa35-86dfc76d6b70" />
+
 
     % 49) LVM configuration action
         ? choose "finish"
         # your setup now looks like:
-            # Physical disk → Encrypted partition → Volume Group (LVMGroup) → Logical Volumes.
-![WhatsApp Image 2025-10-23 at 01 12 08_6f560105](https://github.com/user-attachments/assets/3c615ea8-00dd-4d2e-9d55-eb5606b56e2d)
+            # Physical disk -> Encrypted partition -> Volume Group (LVMGroup) -> Logical Volumes.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/78d459a2-3528-4881-9d78-0ee20c36b15b" />
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ! you will do the configure all the LVM file (root , swap , home , var , srv , tmp ,var-log)
     * This means you’ve finished creating all your logical volumes inside the volume group LVMGroup
     * Now, you’ll configure each one of them (format type, mount point, etc.).
     ! You will repeat the next steps (50 → 55) for each of the following logical volumes:
     ! root, swap, home, var, srv, tmp, var--log
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+
         % 50) configure iscsi volumes
             ? go to the line after the volume  info 
             ? its like : #1  #.#GB enter to it
             ~ Use the arrow keys to highlight one logical volume (start with root),then press Enter to configure it
-![WhatsApp Image 2025-10-23 at 01 15 17_2439c3fc](https://github.com/user-attachments/assets/0bfafcca-4509-493d-a844-88934ebaf59f)
-
+            here we will configure home volume
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f24e5e08-04a6-4e28-af73-fc19921271e6" />
 
 
         % 51) partition settings
-            ? Select the option “Use as:” and initially it may show “do not use
+            ? Select the option "Use as: do not use"
             ~ You need to change this to define how this partition will be used
-![WhatsApp Image 2025-10-23 at 01 17 04_6a41e303](https://github.com/user-attachments/assets/09f6bc61-7e3c-4916-99ff-afe3c9e5abb0)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/02b90476-d742-488b-beee-93afa1385811" />
 
 
-
-          
         % 52) how to use this partition:
             ? choose "Ext4 journaling file system"
             ~ "Ext4 journaling file system" is the standard Linux file system for normal 
             ~ partitions like /, /home, /var, etc.
-            ! Special case:
-                # For the swap logical volume, instead of “Ext4,”
-                # choose “swap area”, then select “Done setting up the partition.”
-                # (You don’t need a mount point for swap.) we do it bellow dont wory here all info you need and do it in correct place
-![WhatsApp Image 2025-10-23 at 01 19 57_71c1a193](https://github.com/user-attachments/assets/9d7acd3e-a952-4f1d-b683-7101ab295814)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/17dc9138-a578-4f16-a5fc-457dc415225c" />
 
 
-
-                
         % 53) partition settings
             ? After choosing the file system select "Mount point : none"
             ~ For normal volumes, you’ll pick a mount point from the list
-            # for file (var-- log) select "Enter manually"   we do it bellow dont wory here all info you need and do it in correct place
-![WhatsApp Image 2025-10-23 at 01 21 58_4af271ce](https://github.com/user-attachments/assets/55ea2dee-b66d-4b15-810e-11efde3eada7)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0054b8ad-e8b7-461a-956d-c5ff62806b83" />
 
 
         % 54) Mount point for this partition
             ? choose "/nameFile - name file depending the file you choose"
-            # for file (var-- lon)  :  enter the name (var--log)   we do it bellow dont wory here all info you need and do it in correct place
-![WhatsApp Image 2025-10-23 at 01 24 42_f2343d06](https://github.com/user-attachments/assets/5def7d0b-2f75-4783-b61b-8d6c68688cda)
+            for home : choose /home
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4d03f7e6-d8c5-4d52-bba6-a7f5bb13db83" />
 
 
         % 55) partition settings 
         ~ After setting the correct mount point,
             ? choose "Done setting up the partition"
-![WhatsApp Image 2025-10-23 at 01 26 27_837e7374](https://github.com/user-attachments/assets/6f12fd16-a8ec-4f15-8bbe-9bc68eb209eb)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d1d86d2d-8ea7-48b1-ac28-ffe036685cb3" />
 
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
                for root :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![111](https://github.com/user-attachments/assets/c81d32ad-c7ca-4f18-8b27-d82426aab2a1)
-![222](https://github.com/user-attachments/assets/3616b849-c69c-4a8d-9454-17ea7032b9a9)
-![333](https://github.com/user-attachments/assets/9cec48a6-3fc8-4452-8dc3-e2442ddf1081)
-![444](https://github.com/user-attachments/assets/686c78af-b8a3-4ca8-88ac-2dc52f29f60e)
-![555](https://github.com/user-attachments/assets/5f9df398-6d30-4ff6-951e-e437d4bd0417)
-![666](https://github.com/user-attachments/assets/071ed4f1-e343-4248-b0f9-a75731171fd5)
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/58f05bdc-6890-422a-a9fe-c40c35cb2286" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9886dc52-e65c-433d-989e-0c8e4c0c40d3" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e17254f6-8401-4ee3-b3e1-9a731bfff147" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7c1741f5-2b13-472c-9f18-d41d0e03cd38" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ba80b642-ee2c-42c2-9707-c18cd6838fda" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cabc85fe-84f1-4f65-9892-094ed3aaedc2" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for srv:
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![111](https://github.com/user-attachments/assets/46c4b4e9-d769-470c-8c14-3b01e2c975cc)
-![222](https://github.com/user-attachments/assets/78dce5c8-6e47-4e61-bae5-f2e79c0363bd)
-![333](https://github.com/user-attachments/assets/a9a1e273-478c-4839-b7a0-1ee71263f024)
-![444](https://github.com/user-attachments/assets/8d0a3e1f-dac5-4498-8204-302292cffb84)
-![555](https://github.com/user-attachments/assets/cd0f659f-8ff5-4fd1-aab6-d7e1f30c070f)
-![666](https://github.com/user-attachments/assets/233f0717-1059-4337-b0cb-e6595baeac7e)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dbdb33ca-5eab-4d13-ab9b-d3b68a2400eb" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0a4c6228-6219-4eea-9ecb-6617b96ea67b" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/abe10e80-5f9e-46c3-a3a4-780cd3f6587b" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5d252d3d-2a74-4ba5-8d61-9a740bbe67d6" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/14b3b2fa-0a2e-4a45-a834-71b32ebbf799" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4ea79f06-83a9-43ba-8f44-584bb77b37a7" />
 
 
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+               for swap :
+               (we will make an exception because the file system will be different)
+                # For the swap logical volume, instead of “Ext4,”
+                # choose “swap area”, then select “Done setting up the partition.”
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fb69b25c-f3e2-4d09-b83f-01e0673625b8" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/628bf28a-5193-494f-b823-3ffe6415ccca" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fdd15ff8-387d-4b0c-a1bd-db64e780ee36" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/718b3cb3-630a-4c09-a610-2879b959ab4e" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-               for swap : (we will make an exception because the file system will be different)
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![111](https://github.com/user-attachments/assets/93c8e320-4fc7-4a25-8521-b49ab73ff8eb)
-![222](https://github.com/user-attachments/assets/cde20bba-3cb2-4ade-88e4-e3d6f80e8403)
-![333](https://github.com/user-attachments/assets/c14722ca-31df-4101-adbf-1b6068144ee5)
-![444](https://github.com/user-attachments/assets/f0963756-f2cc-439e-a977-fc1280b7de85)
-
-
-
-
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for tmp:
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-![111](https://github.com/user-attachments/assets/caf3497d-9305-4ce2-8ee7-8696c4861e48)
-![222](https://github.com/user-attachments/assets/195d4203-22cd-4076-af6f-a9e2f6a26853)
-![333](https://github.com/user-attachments/assets/269b6cb1-4373-47d0-9dca-ecf14368f227)
-![444](https://github.com/user-attachments/assets/c40c4c6c-0544-4549-9446-a07a8f6158d1)
-![555](https://github.com/user-attachments/assets/b9f8b391-2a6b-40ab-b665-dc2a1d4d03e1)
-![666](https://github.com/user-attachments/assets/32c8cbe2-59b3-4dc9-9935-ea48276a3dcf)
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c31c590f-c02f-4f95-8060-864173660fcc" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b0e3b051-682a-42ea-baef-57873ff70f8f" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/79a4b87d-b642-4e1c-b0bf-f2b235d5b759" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e1ef4a09-a321-4e36-b2c0-a213f1ea3d8c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/43fa6d74-b3b0-40f3-a0e2-6d9a28b904c1" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/07288596-3173-45b4-83d3-8527381f7bec" />
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                for var :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-![111](https://github.com/user-attachments/assets/4c19a10c-135f-46b8-821a-5b7ee6a7a72a)
-![222](https://github.com/user-attachments/assets/d17f3a78-e1c8-46b3-9ff1-f70f5fb192d7)
-![333](https://github.com/user-attachments/assets/0cb9ff80-d2de-46ac-8986-3824935084e1)
-![444](https://github.com/user-attachments/assets/2d903497-dd71-4705-b686-d7bb675dcb23)
-![555](https://github.com/user-attachments/assets/5e56b5d8-3c28-4ebe-ac0f-3e877d92d141)
-![666](https://github.com/user-attachments/assets/14a64996-4838-4bc1-8ddc-9e07c894903a)
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5d5464ef-e315-4c1d-bce3-bc518902bb77" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fb38cff3-3497-460a-958b-c5f2b2be7e8e" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bae7e6e9-e0cc-472c-8547-72ed7e698bae" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8ad89d9a-cb40-4251-9cb5-c3b4be0b088a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/82ef32f0-c067-4604-8d7e-fc69dab01dd0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f15ff7a8-9c5b-484f-8b7f-854e110c15d4" />
 
 
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+               for var-log :  
+               # select "Enter manually" 
+               # enter the name (var/log)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0cd74214-0232-4785-b83c-f3b536a5e09b" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5289f42a-23c3-4683-8c3d-31441c2bda0a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/35652acc-cf47-4464-bc1a-4ca5f9695f2a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e4d57e44-e40a-458a-b9e9-7e1e3ec09580" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2b21729e-4525-47c3-acd1-51e9010e3815" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d2c5289d-da01-49e7-ba3a-df1561d75f5c" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e61841b1-56f1-4cfa-a063-6f1386bb6902" />
 
 
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-               for var-log :
-     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-![111](https://github.com/user-attachments/assets/ff2a8fd5-439f-4080-a0dd-a7ce0a9eb2b7)
-![222](https://github.com/user-attachments/assets/654c7182-3e9d-491c-b191-9ffc4212d420)
-![333](https://github.com/user-attachments/assets/17f7c971-5893-4085-b402-15e3919fae09)
-![444](https://github.com/user-attachments/assets/2153dbaa-b217-4810-ace5-611bf8724f50)
-![555](https://github.com/user-attachments/assets/167c9b9b-e5bf-44cd-b201-ced52ec102f0)
-![666](https://github.com/user-attachments/assets/9c2e38a9-8582-4379-96da-a5bbb08964af)
-![777](https://github.com/user-attachments/assets/391195f1-cf82-443f-9db6-8768e91c0f1a)
+/////////////////////////////////////////////////////////////////////////////////////////////
+Now, assign the correct mount point depending on the name of the volume
 
-            ~ Now, assign the correct mount point depending on the name of the volume
             Logical Volume	    Mount Point
                 root               /
                 home               /home
                 var                /var
                 srv                /srv
                 tmp                /tmp
-                var--log           /var/log
+                var-log           /var/log
         ~ This saves your configuration for that logical volume.
         ! you will doing all step for the file 
             # Once done, every logical volume will have:
                 ? Its correct file system (Ext4 or Swap)
                 ? Its correct mount point (/, /home, /var, etc.)
-                ? And be ready for installation.
-                
+                ? And be ready for installation
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 
     % 56) configure  ISCSI volumes 
         ? choose "finish partitioning and write changes to disk"
         ~ This means you have completed all your partition setup (LVM, encryption, etc.)
         ~ and you are ready to apply these changes permanently to the disk
-![WhatsApp Image 2025-10-23 at 02 31 37_89bd4b9d](https://github.com/user-attachments/assets/38673dbd-b013-4def-a9a7-da19473abd3e)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4aa69124-4a20-4ea0-9713-4ae632f4f796" />
 
 
     % 57) Confirm changes , configure the package manager
@@ -692,58 +672,39 @@ note :
         ~ After this step, the actual installation of the base system will begin. 
         ~ This allows the Debian installer to set up the APT package manager,
         ~ which is responsible for installing and updating software packages later
-![WhatsApp Image 2025-10-23 at 02 33 55_e923cd12](https://github.com/user-attachments/assets/0a9a72de-6955-41e6-8909-ad0779b3f110)
-
-            
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/09fe2ab6-9e0d-46eb-bdfd-90b7d2799e06" />
 
 
        % 58) scan extra installation media 
              ? choose "no"
              ~ This means you don’t have any additional installation media (like a DVD or USB with extra packages)
-![WhatsApp Image 2025-10-23 at 02 41 50_e4ab5cd6](https://github.com/user-attachments/assets/e4c10e77-4d37-489f-a31c-14233ed91ccb)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f00739bd-5c60-44e3-a58e-f282c756e686" />
 
 
-
-
-
- 
     % 59) Debian archive mirror country
         ? choose "United states"
         ~ You’re selecting the country closest to you or where the fastest mirror is located.
         ~ (You can choose any, but “United States” is reliable.)
-![WhatsApp Image 2025-10-23 at 02 44 38_d986b5c9](https://github.com/user-attachments/assets/42282390-f8ed-4f9a-87eb-e289bef847b6)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a2237e1a-42bc-4729-ac54-dcca87112d2e" />
 
 
     % 60) Debian archive mirror 
         ? choose "deb.debian.org"
         ~ This is the main Debian repository where packages are downloaded from.
-![WhatsApp Image 2025-10-23 at 02 46 18_0cd984d1](https://github.com/user-attachments/assets/5978c0cb-1c0a-479b-b222-99973dcfea53)
-
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d4d9d227-1d33-4e54-a9ae-5e6a4a9e3558" />
 
 
     % 61) HTTP proxy information 
         ? Leave this field empty/blank and continue (blank for none)
         ~ (Only fill this if your network uses a proxy server — most users don’t.)
-![WhatsApp Image 2025-10-23 at 02 47 58_5b420687](https://github.com/user-attachments/assets/acd1db09-a879-44c7-9d2d-d8e17a4d85a9)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/21acbbd9-dbd7-435d-af99-67eb6b9bd0d2" />
 
-
-     
 
         % 62) participate in the package usage survey?
              ? chhose "No"
              ~ We do not want developers to see our statistics
              ~ This disables sending anonymous software usage statistics to Debian developers.
-![WhatsApp Image 2025-10-23 at 02 50 53_798012ae](https://github.com/user-attachments/assets/78210725-df56-4165-8e15-c6ac0622677b)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/07c52d7a-0247-430d-a16b-f52fc0eecc28" />
 
         
     % 63) choose software to install
@@ -751,85 +712,56 @@ note :
         # Unselect all software options using the Space bar, then click Continue
         ~ According to the project instructions, installing any preconfigured 
         ~ software (like desktop environments) is forbidden so We only install the bare minimum base system.
-![WhatsApp Image 2025-10-23 at 02 52 26_12ea22a4](https://github.com/user-attachments/assets/a1e5f87b-5a30-457c-ad6d-e93694fa0f49)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5f7f050a-c73f-475b-9957-12c5007c67a3" />
 
 
-
-
-
-
-     
         % 64) install the GRUB boot loader to your primary drive?
              ? choose "yes"
              ~ GRUB is the program that lets your system boot Debian at startup
-![WhatsApp Image 2025-10-23 at 02 54 47_4b25b343](https://github.com/user-attachments/assets/864cf830-6f06-45e5-82c8-66065c46e08a)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/021093f0-e298-4bd6-99a8-7eaeda4bfc3a" />
 
 
     % 65) Device for boot loader installation
         ?choose "/dev/sda (ata-VBOX_HARDDISK_###############)"
         # This installs the boot loader on your main virtual hard drive
-![WhatsApp Image 2025-10-23 at 02 56 57_d9e356e3](https://github.com/user-attachments/assets/a80585be-cb44-47bf-8112-64a4838dc01b)
-
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/96ad5964-4428-4a54-9a82-30101f8934f8" />
 
 
     % 66) please choose <Continue> to reboot
         ? choose "continue"
         ~ Your installation is now finished — Debian will restart
-![WhatsApp Image 2025-10-23 at 03 00 29_66cb2565](https://github.com/user-attachments/assets/e479280d-e5c5-46a2-b1ec-f14760682cc0)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0daf2388-7cd9-46bc-80e2-255432b85e45" />
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+--------------------------------------------------- Virtual machine setup ----------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Virtual machine setup
-
 
 
     % 67) it will reload and appear the black screen 
-        ~ This is normal — it means the system is booting from your encrypted disk for the first time.
+        ~ This is normal — it means the system is booting from your encrypted disk for the first time
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/849e99a1-b5ac-43cb-9387-3d97124ad51b" />
+
     % 68) after load it enter the LVM password (last password you enterd) 
         ? we write it in the step is 37
         ~ When prompted, enter the encryption password (the one you set in Step 37)
         ~ This decrypts your LVM volume group so Debian can boot
-![WhatsApp Image 2025-10-23 at 03 04 08_4ae393e2](https://github.com/user-attachments/assets/819f8b9c-0996-469a-8b13-66b22dd2098f)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/99dc3ffe-c341-4e37-bbe6-bc257193298d" />
 
 
     % 69) then enter the user name of the user + password (new user) the step  is 9 + 10
         ? Enter your username and password (from steps 9 + 10) to access the system
-![WhatsApp Image 2025-10-23 at 03 07 47_913187af](https://github.com/user-attachments/assets/485f0f0f-6cf2-4601-94b4-862e141261e5)
-
-
-wellcome :
-
-
-![WhatsApp Image 2025-10-23 at 03 11 46_8cbcae4f](https://github.com/user-attachments/assets/90aa41ed-52fb-45b1-abd4-d37621d77532)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6d3d4497-1036-4803-b462-66272d08bd77" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f9fe881-1bcf-44b4-8efb-d2721910311b" />
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 Virtual machine setup
 Virtual Machine Configuration
 Implement basic security and service settings within the system itself (from within the terminal after logging in)
+note : all command that use bellow also i write it inside file called sudo command
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-     note : all command that use bellow also i write it inside file called sudo command
 
  1) Installing sudo 
 
@@ -838,11 +770,9 @@ Implement basic security and service settings within the system itself (from wit
                  enter the root password (the one you set in Step 7)
                  ? you add the root password when you setup the virtual machine
             ~ This command allows you to execute commands with superuser (root) privileges
-![11](https://github.com/user-attachments/assets/42a1ace3-71a8-4c03-b2b6-1387c01c77b6)
-![22](https://github.com/user-attachments/assets/b0b1185d-2f28-4bc6-ac7c-bba064f74a1f)
-![333](https://github.com/user-attachments/assets/b2718e8c-41a5-41d7-8a97-7ce7bf38d740)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5df81377-6a5b-4794-a470-ea655bbf8c22" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3967772b-ae4a-4c58-9fe4-92d4e426be83" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b96c57ad-732e-438d-a7a8-3a4a88c07c62" />
 
 
         ^2) Install sudo package:     
@@ -850,46 +780,36 @@ Implement basic security and service settings within the system itself (from wit
             $ enter the "apt install sudo" command 
                 ~ to install the necessary packages
                 ~ This command tells the package manager to install the required packages for sudo
-            $ enter "y" to prompted to confirm the installation
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d6a01fd4-a69c-4bc7-b07f-3e4e1eaefdb1" />
 
-![WhatsApp Image 2025-10-24 at 04 37 56_b9a8f149](https://github.com/user-attachments/assets/10a6c531-3ccd-494c-9e60-2e02777bfac3)
 
         ^ 3) Reboot the system 
             $ write "sudo reboot" command and wait for it to reboot
             ~  We must reboot the machine so the changes can be applied
-
-![WhatsApp Image 2025-10-24 at 04 46 20_564bf47d](https://github.com/user-attachments/assets/a3b38172-c095-4d83-b959-8cf28e76a8eb)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d5232a18-b76c-4223-a1a5-b3be44129a6e" />
 
 
              ^ 4) AFTER reboot we need to Verify installation
-            ! 1) write the passowrd of the lvm (encription password)  LVM password (last password you enterd) 
-        ? we write it in the step is 37
-![WhatsApp Image 2025-10-24 at 04 52 37_6f24ac51](https://github.com/user-attachments/assets/73a870bc-7ce8-4a62-bdc4-52517a3510f4)
+                      ! a) write the passowrd of the lvm (encription password)  LVM password (last password you enterd) 
+                  ? we write it in the step is 37
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8dbbceae-39d9-4619-a0c0-00945f5701ce" />
 
         
-            2) write the user password again to switch to root user
-                ~ enter the new user username + password (the one you set in Step 9 + 10)
+                      b) write the user password again to switch to root user
+                          ~ enter the new user username + password (the one you set in Step 9 + 10)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e1ba07cf-3e7b-46a6-aceb-bde37ce6706d" />
 
-![WhatsApp Image 2025-10-24 at 04 54 05_b58a3abd](https://github.com/user-attachments/assets/f63f25c7-1ff5-4b0f-8e83-201c7f3f1583)
 
-     ! 3) convert into root use by wrte 
-          // su then the password of the root (the one you set in Step 7)
-
-![WhatsApp Image 2025-10-24 at 04 57 46_45d86e28](https://github.com/user-attachments/assets/c43fe115-9d71-46dd-871a-6ddb307287df)
-
+                     c) convert into root use by wrte 
+                         // su then the password of the root (the one you set in Step 7)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ae37defa-a1a7-4bd0-9a36-e14d858667a3" />
 
           
-               ! 4) Check sudo version by
-                $ write "sudo -V"
+                       d) Check sudo version by
+                               $ write "sudo -V"
             ~ This command will display the sudo version and configuration details if the installation was successful
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c4df1303-190d-4660-acdd-bd80f335a74e" />
 
-
-![WhatsApp Image 2025-10-24 at 05 01 00_5a86d728](https://github.com/user-attachments/assets/6f2d6b83-6e99-4572-9c43-416a5c5364b4)
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 2) configuration of user and groups
      
@@ -903,19 +823,15 @@ Implement basic security and service settings within the system itself (from wit
                   write the following command  : sudo adduser nameUser
                               ? note :  as a subject add your entra name
                                       If you had already done it will show the same message as is the image.
-![WhatsApp Image 2025-10-24 at 05 48 39_dafb1f8e](https://github.com/user-attachments/assets/815624a4-31d5-4e71-9611-0a5bc1701b65)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dcb8eef9-dad5-44e8-8d81-cf5fa81b1da4" />
 
           
-
         ^ B) Creating a group (should be done as root user)
              how to  Add a new Group
                   write the following command  :  sudo addgroup NmeGroup
                note: 
                       ? We will create a new group called "user42" as the subject indicates
-               note :
-                     it will give you message : adding group "nameGroup" (GID ###) or not
-                     ~ if you dont have any message like this you can check if the group is created or not by the next step
-![WhatsApp Image 2025-10-24 at 05 56 19_90862bb5](https://github.com/user-attachments/assets/037bf382-8a34-4dac-9a09-fe18a9f9b922)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/86ecdb54-2b6d-4c05-8f35-2415ba80bb2d" />
 
 
         ^ C) check if the group  is exit or not
@@ -932,7 +848,7 @@ Implement basic security and service settings within the system itself (from wit
                 % It's the group identifier, in short, Group id
                 % Each group in a Linux system has a unique GID assigned to it
                 % This number is used by the system to manage permissions and access control for files and processes
-![WhatsApp Image 2025-10-24 at 06 06 03_3362f409](https://github.com/user-attachments/assets/69d6f8a1-8993-4e7c-95f3-958c5a776dc4)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f57583d4-d1c9-48c4-b05a-208e8c2081c8" />
 
 
         ^ D)add user to the group (should be done as root user)
@@ -944,15 +860,15 @@ Implement basic security and service settings within the system itself (from wit
                       ~ This command adds the user "ralhoura" to the group "user42"
                       ~ This allows the user to inherit the permissions and access rights associated with that group
                       ~ After executing this command, the user "ralhoura" will be a member of the "user42" group
-![WhatsApp Image 2025-10-24 at 06 19 24_ab3fa70b](https://github.com/user-attachments/assets/34a2f496-afef-4900-a64c-687f2ef534ae)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a6d6bea1-5948-4d5e-a9a7-9649e61b5e9a" />
 
 
      ^ E) Verify group membership
                how to  Verify if the user is inside  Group or not:
                        write the following command  : getent group  NAMEGROUP NAMEGroup ...." 
               You can verify this by checking the group membership of the user
-                example : getent group  USER42
-                example : getent group sudo USER42 sudo
+                example : getent group  user42
+                example : getent group sudo user42 sudo
 ![WhatsApp Image 2025-10-24 at 06 33 34_f73dc3a8](https://github.com/user-attachments/assets/b2aab366-5cf4-4dca-8241-a348fc32549d)
 
 
