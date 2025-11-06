@@ -111,133 +111,117 @@ setup your vm / installing debian
 
     % 2) selsect the language (english)
         ~ This determines the language used in menus, system messages
-![503752011-148917ef-4cc5-4287-8690-8852e9788252](https://github.com/user-attachments/assets/00648926-2bbe-42cd-9b07-a5c1a0180145)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ce345a43-d444-442f-8526-2eafe29dcbfb" />
 
 
     % 3) select your location
         ~ Choose your country or region (for example: “Other → Middle East → Jordan”)
         ~ This will automatically set your system’s time zone and regional settings
-![111](https://github.com/user-attachments/assets/07b7947b-9ff8-4bae-ba8b-6d40c4714743)
-![222](https://github.com/user-attachments/assets/b74a64ec-fbee-4b9c-ab31-ea2df9a0f825)
-![333](https://github.com/user-attachments/assets/088a57af-379b-45b3-a168-b04643f0a19c)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/57949c31-02aa-4f84-81ce-baf3ee862297" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/94853a13-a402-4e50-a67a-37a0910c0d24" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/330828fe-6161-424f-be1f-df1133f110f0" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/fd2a6c6a-5269-4b12-9fed-c54c3cede9a5" />
 
 
     % 4) configure the keyboard
         ~ The installer will ask for the keyboard layout. You can select 
         ~ “American English” or test your layout by typing in the provided
         ~  box to ensure it matches your keyboard
-![503757141-46804422-70a8-458b-b3d4-ddf7f7272491](https://github.com/user-attachments/assets/fb1d7884-44b3-4064-b876-fb821cfc4fec)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3b3696af-92d8-4da0-a069-58f86dbdc531" />
 
 
     % 5) configure the network (Host name)
         ~ The system will detect the network and ask you to provide a host name
         ? You must use the following format: your Intra name + 42 
-<img width="605" height="443" alt="Screenshot 2025-10-22 173249" src="https://github.com/user-attachments/assets/0e2e3b40-e519-442d-8bd2-db965778d14a" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1a59591f-c64b-430d-a55e-4aa8b791b2e1" />
 
 
 
     % 6) make the domain name empty
         ~ When asked for the domain name, leave it empty and press Enter
         ~ This is because you are not connecting your machine to a specific domain network
-![503759542-7a4a6257-239b-4161-a7aa-b25fc55085eb](https://github.com/user-attachments/assets/fd28de75-e9d1-4b67-85b4-a4207b0176bf)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f0ce8158-5a8b-4f18-9bdb-8074f2045260" />
 
 
     % 7) set the password for the host (root user)
         ~ This is the password for the administator (root) account
         # Be sure to remember it — this account has full system control.
         $ re-enter password to verify
-![111](https://github.com/user-attachments/assets/290b223d-0ea3-449b-b0f6-4f1df6bf1f4e)
-![222](https://github.com/user-attachments/assets/1e723768-c814-47b0-82a8-8e31f0774dfc)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a4cdd6b8-649c-4575-8130-4226ad132fcd" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e19f1faf-f650-4e6e-85f3-542cb866c4fd" />
 
 
     % 8) set the full name for new user
         ? It must be intra name 
         ~ When the installer asks for the “full name” of the new user, enter your Intra name
-<img width="687" height="452" alt="Screenshot 2025-10-22 175454" src="https://github.com/user-attachments/assets/36396bff-073d-4207-82bc-b57c666d1f34" />
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d0f7a1c0-af86-45c6-ae3b-947f078b7e3e" />
 
 
     % 9) set the username for accout 
         ? same above
         ~ The username is what you will use to log in to the system
         ~ Use the same as before — your Intra name
-![503768854-1140ead6-7e63-4ca6-8c5c-f24ac52d4127](https://github.com/user-attachments/assets/7124c26e-7444-4791-955b-76bcb40848cc)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8f8ebb98-cfbc-411c-9661-6e21bab004d8" />
 
 
         % 10) password for new user 
              ~ This is the password for the non-root user (your normal account)
              ~ This password should be different from the root password for better security
              # re enter the password
-![11](https://github.com/user-attachments/assets/3d2eecf4-4006-4614-9a22-8231f55430b6)
-![22](https://github.com/user-attachments/assets/fc62b966-609a-4ec5-920a-3d5bdea9cffc)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b6cce655-bd42-42f8-b779-a51e06f6be4d" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f2bf044f-8698-4024-aa1c-0c5b46fd741f" />
 
 
     % 11) partition disk (choose partitioning method)
         ? choose manual 
         ~ When you reach disk partitioning, select Manual mode
         ~ This gives you full control over how to divide and use your virtual disk
-![503776534-87391d40-2454-4e31-a9f5-6a7df148a23d](https://github.com/user-attachments/assets/f3be0964-613a-4186-9816-49df48cfa0d9)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c8d60660-7499-4373-b933-a221cb267076" />
 
 
     % 12) select the storage location  (partition disk)
         ~ Choose your virtual hard disk. It should look something like:
         ? SCSI3 (0,0,0) (sda) — ## GB ATA VBOX HARDDISK 
-<img width="601" height="557" alt="Screenshot 2025-10-22 181650" src="https://github.com/user-attachments/assets/b4109e60-826d-48a2-9724-f789a08957ef" />
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d9cf69dd-ae02-4c8e-821f-f02bb50dcd45" />
 
 
     % 13)  Confirm the selection
         ? When asked whether to use this disk, select Yes to continue
-![503779662-b707ad6c-4fd1-4131-b0b2-2eeda82c8639](https://github.com/user-attachments/assets/e0bc848f-8424-462a-b1b7-1579f21504c7)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/80dc5744-373c-43dd-acdf-af887373d851" />
 
 
     % 14) select the free space  
         ~ You will see an area labeled something like 
                 ? pri/log -## GB FREE space
         ~  Highlight it and press Enter 
-![503780927-d1fc7512-3608-44bb-94d9-b8a3893c657f](https://github.com/user-attachments/assets/d0de55c5-c22a-44f8-9869-3c2cfaf48141)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6469fbd1-0d55-4af2-a51e-75aa30f1d087" />
 
 
     % 15) How to use this free space
         ? choose "create a new partition "
         ~ This will allow you to manually create partitions such as /, /home, or swap , ...... later
-![503783177-dbf47f6f-e0cd-4e54-b30b-56d7be7db174](https://github.com/user-attachments/assets/dbfbeeda-697c-49c6-ade2-ab51192abdb0)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dbdd39b1-1a82-4716-890e-6d0c422737e8" />
 
 
     % 16) new partition size 
         !  As the subject indicates, the size of the partition must be 500 megabytes. (500m)
         ~ The installer will ask for the size of the new partition
         ~ You will define it based on your setup plan (for example, 10 GB for root /, etc.)
-![503784730-a6543a07-2445-4aa4-9406-ef5f174f6108](https://github.com/user-attachments/assets/366a6392-f2b6-4350-943f-55473b34cd35)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/216bc5c8-5489-476b-ab13-c08c75bdf874" />
 
 
     % 17) Type for the new partition 
         ? choose  "primary"
         ~ This makes the partition a main partition directly on the disk (not part of an extended one)
         ~ It’s ideal for essential system areas like /boot
-![503786333-ff39850e-9a7f-4126-b8f7-5b59f9dbd137](https://github.com/user-attachments/assets/954b32f0-bc70-4d97-88b7-ff7cdc5cbce6)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bf1c33d2-1270-4010-8315-72de087ad02c" />
 
 
         % 18) location for the new partiton:
              ? choose "Beginning"
              ~ This places the partition at the start of the disk — which is better for the boot partition 
                  ~ because it loads faster and is easier for the BIOS/UEFI to detect
-![503788345-fd9c1cff-8789-4b1d-b683-1bfdebd82f26](https://github.com/user-attachments/assets/37da357d-d0cf-4ead-a2bd-25f947dcce4a)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dce7ab48-19ae-4dea-aa80-e83d707aa6c9" />
 
 
      % 19) partition setting:
@@ -245,9 +229,7 @@ setup your vm / installing debian
         ? We will modify the mount point to which the subject specifies
         ~ Now the installer will show the settings for this new partition (size, type, mount point, etc.)
         ~ We will modify the mount point according to the installation instructions
-![503791268-9c649144-4f4e-48b2-9bfd-3df0aa1c1de7](https://github.com/user-attachments/assets/ab976bce-7f4d-4f78-acc0-3c577a49655f)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/39ecae23-b515-44a8-be15-a8ad84923f36" />
 
 
     % 20) Mount point for this partition:
@@ -255,110 +237,81 @@ setup your vm / installing debian
         ? /boot - static files of the boot loader
         ~ This partition will store static boot loader files — files required to start the operating system (like GRUB).
         Example: /boot contains the Linux kernel and GRUB configuration
-![503793092-9aca80dc-072b-4d45-9531-19da9e5772ac](https://github.com/user-attachments/assets/c606fc30-f685-41e0-a9df-5fb3cf7d4d19)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c8fc43e9-9d73-4c25-a63b-8c2db063d753" />
 
 
     % 21) partition setting:
         ~ We finish configuring the current partition
         ? After setting the mount point, select “Done setting up the partition.”
         ~ This means you’ve finished configuring the /boot partition
-![503794139-86178aca-bb7e-4dde-a0e9-227c2e198b26](https://github.com/user-attachments/assets/91701176-46b3-4a19-b4da-58c38f12a259)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d0ae5c63-d31a-4564-ab12-c4fd2901e310" />
 
 
     % 22) partition setting:
-        ~ Once we have completed the previous step, the partition should appear. 
-        ~ Now we must create a logical partition with all the available disk space, 
+        ~ Once we have completed the previous step (/boot partition), the partition should appear in the partition list
+        ~ Now we must create a new logical partition with all the available disk space (using all the remaining free space) 
         ~  which has no mount point and which is encrypted. To do this, we select 
         ~ the free space where we want to create it
         ? choose "pri/log -## GB FREE space"
-        # Once the /boot partition is done, it should appear in the partition list.
-        # Now, you need to create a new logical partition using all the remaining free space.
         # This partition will:
             Have no mount point yet.
             Be encrypted.
-        ?To do this, select the line that says something like:
-        ? “pri/log - XX GB FREE space.
-![WhatsApp Image 2025-10-22 at 19 23 44_b80c6251](https://github.com/user-attachments/assets/5bce1746-c6e0-4188-a6dd-fcfb0c660a29)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3f84f61d-ba44-4d3b-8908-512661c9bdf1" />
 
 
     % 23) How to use this free space
         ? choose "create a new partition "
         ~ This allows you to manually create additional partitions later (like /, /home, or swap) 
             ~ inside the encrypted volume
-![WhatsApp Image 2025-10-22 at 19 34 28_91ca76d0](https://github.com/user-attachments/assets/8a9ba128-7b59-42db-b1f9-1754483c95c6)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1ad3ca4a-d5ca-4337-9ee8-5347de92398a" />
 
 
     % 24) new partition size 
         ? write : "max"
         ~ When asked for the size, type “max”.
         ~ This tells the installer to use all remaining free space for the encrypted partition
-![WhatsApp Image 2025-10-22 at 19 51 33_f0e8f6f7](https://github.com/user-attachments/assets/588fdd92-3f1e-4d16-a3d2-a4e28e80c7d0)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1ad55469-3a4d-4af9-83a0-f46a6f19acd2" />
 
 
       % 25)Type for the new partition:
              ~ Since we’ll use this partition later to build an LVM (Logical Volume Manager) setup
              ? choose : logical 
              ~ Logical partitions allow flexible management and multiple logical volumes inside them
-![WhatsApp Image 2025-10-22 at 19 59 11_7d401848](https://github.com/user-attachments/assets/e99419b2-ebb3-4602-95b5-5b0de8a3a436)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1005452a-39af-4ac2-91f7-d72b71a015a6" />
 
 
     % 26) partition settings:
         ? go to the Mount point and choose it
-![WhatsApp Image 2025-10-22 at 20 07 33_8ce6c4c2](https://github.com/user-attachments/assets/c5f103a7-f770-40d2-a97a-fb4d8ff12237)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/610ab420-7a40-4bdc-8d49-d354d5072c38" />
 
 
     % 27) Mount point for this partition:
         ? choose "Do not mount it "
-![WhatsApp Image 2025-10-22 at 20 13 56_be4e7ba9](https://github.com/user-attachments/assets/066a8a02-a64d-4e48-b690-c0954accc707)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8717b372-fb65-4fd0-b4ee-ecf47d48b026" />
 
 
-
-     
     % 28) partition settings:
        ? choose : done setting up the partition
        ~ This confirms and saves the logical partition configuration
-![WhatsApp Image 2025-10-22 at 20 40 21_ee2d29da](https://github.com/user-attachments/assets/12415ed2-69c2-4def-921e-17d49fcf6541)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/21ad5550-6cd9-475e-af7f-28f0ff1c1b95" />
 
 
     % 29) patition disk (Configure encrypted volumes)
         ~ Now that the logical partition exists, you’ll move on to encryption configuration.
         ? choose "configure encrypted volumes"
-![WhatsApp Image 2025-10-22 at 20 55 12_a2450161](https://github.com/user-attachments/assets/961b39ac-f700-4f08-9f06-2ba7490b06cd)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7eb7d4fc-b0cc-4548-b716-cf65b75ead8c" />
 
 
         % 30) Confirmation 
              ~ Choose “Yes” when asked to confirm that you want to configure encrypted volumes.
-             ? yes
-![WhatsApp Image 2025-10-22 at 20 58 14_b8e21063](https://github.com/user-attachments/assets/2ae278c3-eecd-411b-9749-76b0781c72d7)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ee15625a-7381-4047-8a5e-5441fc62a973" />
 
 
     % 31) Encryption configuration actions
         ? choose "create encrypted volumes"
         ~ This will initialize the setup process where you’ll later select which 
             ~ partitions to encrypt and define the encryption method (like AES)
-![WhatsApp Image 2025-10-22 at 21 16 06_3e05ff41](https://github.com/user-attachments/assets/9d0e7298-d155-4230-8069-094520ec2f54)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c284e9ac-f7b4-4667-ae7d-315ba64b7bd0" />
 
 
     % 32) Devices to encrypt
@@ -366,29 +319,20 @@ setup your vm / installing debian
         ~ We select which partition we want to perform the encryption on
         ~ This means you’re telling Debian which partition to encrypt 
         ~ in our case, it’s the logical partition /dev/sda5 (the one that uses all free space)
-![WhatsApp Image 2025-10-22 at 21 22 15_6f515bd2](https://github.com/user-attachments/assets/f7e92d28-c49a-4169-9e02-bde14ae135e4)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/bf033f61-820e-4d5b-bc13-d9acd7e0bf75" />
 
 
     % 33) partition settings
         ? choose "Done setting up the partition"
         ~ We finish configuring the current partition
         ~ This confirms the configuration for that partition before encryption begins
-![WhatsApp Image 2025-10-22 at 21 23 39_3b14105f](https://github.com/user-attachments/assets/d6100ea4-2aaf-4717-9613-747515ec74df)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/18e2178b-204b-40ce-bdd4-19aebb5cd896" />
 
 
-
-
-        
     % 34) Encryption configuration actions
         ? choose "Finish"
         ~ This tells the installer that you’re done selecting and configuring the encrypted devices
-![WhatsApp Image 2025-10-22 at 21 24 06_c58c68e5](https://github.com/user-attachments/assets/fafb9c49-1309-4a92-9c19-6e2a404e0882)
-
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6c7dc6ea-63b7-4f29-84ce-3bd0ec6a878c" />
 
 
     % 35) Confirmation — Erasing data
@@ -396,20 +340,15 @@ setup your vm / installing debian
             really erase the data on SCSI3 (0,0,0) , partotion #5 (sda)?
         ? choose "yes"
         ~ This ensures that the partition is securely prepared for encryption
-![WhatsApp Image 2025-10-22 at 21 51 40_1e3186d4](https://github.com/user-attachments/assets/8b1b0db9-cdfc-460e-8df5-89fd4d3fad0b)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5eae9c0e-1729-44ba-b69c-9c5e452b80e1" />
 
      
-
-
-        
     % 36) loader really erase the data on SCSI3 (0,0,0) , partotion #5 (sda)?
         ? click on cancel
         ~ We don't care if it takes a long time or a short time, we click cancel, 
             ~ since there is nothing to encrypt, because the partition is empty.
         ~ It won’t affect encryption because there’s no real data to wipe
-![WhatsApp Image 2025-10-22 at 21 51 55_af034b00](https://github.com/user-attachments/assets/93dc944e-f8b9-4a28-ac76-5c32f752d4be)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/245fe0c3-88ab-448b-ad03-ca54c3e483f8" />
 
 
        % 37) ENcryption passphrase (for password)
@@ -420,62 +359,40 @@ setup your vm / installing debian
              * This passphrase protects the encrypted data — you’ll need it every time the system boots.
              * Make sure to write it down and store it safely,
                      * because if you lose it, you’ll lose access to all encrypted data
-![WhatsApp Image 2025-10-22 at 22 17 44_321318f4](https://github.com/user-attachments/assets/2061f8d7-c181-454d-a475-4177ec9e0eaf)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/316d99dc-8f60-4510-902d-c57a8533738d" />
 
                     
          % 38) Re-enter passphrase to verify:
              ? re enter the previous password
              ~ Enter the same encryption password again to confirm it
-![WhatsApp Image 2025-10-22 at 22 23 24_c6bd4e51](https://github.com/user-attachments/assets/2f25f89b-0475-4546-b437-41ae8a440c64)
-
-
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e9a3c004-7210-42d1-975d-528e2ce9ec74" />
 
              
          % 39) partition disks
              ? choose "Cofigure the logical volume manager (LVM)"
-             ~ LVM allows you to create flexible partitions inside the encrypted space —
+             ~ LVM allows you to create flexible partitions inside the encrypted space 
              ~ it’s like a layer that helps you manage your storage more easily
-![WhatsApp Image 2025-10-22 at 22 31 00_8fc4e9fd](https://github.com/user-attachments/assets/b4dbe721-9855-44d5-85d4-38534d11da82)
-
-
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2ed51ce7-4dd9-4447-b006-ce7e606e7329" />
 
              
          % 40) Write the changes to disks and configure LVM?
              ~ The installer will ask if you want to apply the changes before creating LVM
              ?  choose "yes"
              ~ This commits your encryption and prepares the system to build the logical volumes
-![WhatsApp Image 2025-10-22 at 22 33 00_bf4c1f57](https://github.com/user-attachments/assets/382ea9ef-7074-4d73-84b8-829c3d42ca85)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a593c119-3300-461b-b498-9fac3040d9e1" />
 
 
     % 41) LVM configuration action
         ? choose "Create volume group"
         ~ A volume group (VG) is a container that will hold multiple logical volumes (like /, /home, swap)
-![WhatsApp Image 2025-10-22 at 22 40 56_1c935ac7](https://github.com/user-attachments/assets/d1de2085-7489-471b-a31c-1594e3a1a065)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4adad115-dd16-4c72-a32e-432ce722135e" />
 
 
     % 42) Volume group name
         ~ You must assign a name to this volume group.
         ? We have to give the name as indicated in the subject: LVMGroup
         ~ This name identifies the group that holds all your future logical partitions
-![WhatsApp Image 2025-10-22 at 22 42 56_f08f411a](https://github.com/user-attachments/assets/70f1a6be-c8fc-4481-91ef-e71e8e5f0ad2)
-
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/74cb00b0-a13b-4908-85e2-5da36832a216" />
 
 
      % 43) Devices for the new volume group
@@ -483,16 +400,18 @@ setup your vm / installing debian
              ~ We select which partition we want to perform the encryption on
              ~ This tells Debian that your new volume group (LVMGroup)
                  ~ will be created inside the encrypted partition (/dev/mapper/sda5_crypt)
-![WhatsApp Image 2025-10-22 at 22 46 29_b016b08c](https://github.com/user-attachments/assets/8f287fce-722c-45ce-8353-48f0af7e0eb2)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63f53fca-a81b-4d10-939f-4b4829af197f" />
 
-
-
-     !  note we will repeat the steps from step (44) to step (47) for the following / several times 
-     ! notes repeat the following to actions for the swap , home , var , srv , tmp , var-log file
-     ! once for each logical volume you need to create
-
-                  * the name + size for each file  (The exact size for each depends on the total disk size of your virtual machine)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+note :
+     
+     # we will repeat the steps from step (44) to step (47) for the following / several times 
+     # repeat the following to actions for the swap , home , var , srv , tmp , var-log file
+     # once for each logical volume you need to create
+                  the name + size for each file  (The exact size for each depends on the total disk size of your virtual machine)
                       root: #GB , swap = #GB , home = #GB , var = #GB, srv = #GB , tmp = #GB , var/log = #GB
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
                   % 44) LVM configuration details
                       ? choose "create logical volume"
                       ~ This option lets you make an individual virtual partition (LV) inside the LVM group
