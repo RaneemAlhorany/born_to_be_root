@@ -997,14 +997,15 @@ note :
 
 
 
-Connecting via SSH
+4) Connecting via SSH
 
-      connecting to the virtual machine via SSH from the host machine
-      Port Forwarding Configuration (for VirtualBox):
-
-     To connect from host to the virtual machine:
-
-     1) Close the virtual machine (VM)
+     
+           connecting to the virtual machine via SSH from the host machine
+           Port Forwarding Configuration (for VirtualBox):
+     
+          To connect from host to the virtual machine:
+     
+          1) Close the virtual machine (VM)
 ![WhatsApp Image 2025-11-04 at 13 38 33_ea8a5a46](https://github.com/user-attachments/assets/7eacc303-6b81-4ee3-b752-17b684ae0f16)
 
                 
