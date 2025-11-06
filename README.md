@@ -11,7 +11,7 @@ setp 1: Virtual Machine Setup - Installing VirtualBox and setting up your VM
 https://www.debian.org/distrib/ 
         
      2) download the virtualBox 
-         https://www.virtualbox.org/
+https://www.virtualbox.org/
         
      3) open the virtualBox to Create the Virtual Machine
          open virtualBox application
