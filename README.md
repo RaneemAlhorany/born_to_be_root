@@ -1136,7 +1136,7 @@ Result:
 
 7) sudo policies 
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Note:
 
         You must have root privileges to edit sudo configuration files
@@ -1144,6 +1144,7 @@ Note:
                   su
              Then enter the root password (set in Step 7)
         This grants you administrative access to perform system-wide configurations
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Steps for Configuring SUDO Policies :
 
@@ -1154,8 +1155,7 @@ Step 1: Create the configuration file
              touch /etc/sudoers.d/sudo_config
         This file will store all the custom sudo policies
         It is safer to add custom sudo rules here instead of editing the main file (/etc/sudoers)
-
-![WhatsApp Image 2025-11-05 at 20 01 03_7ad1dce5](https://github.com/user-attachments/assets/fad2574d-6b2d-484a-9122-079f54a44c84)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d6154bfc-19b1-45d8-86cd-e6fe4d5b2012" />
 
 
 Step 2: Create the logging directory
@@ -1164,7 +1164,7 @@ Step 2: Create the logging directory
                   mkdir /var/log/sudo
         This directory will store logs for all sudo commands — including inputs and outputs.
         It allows tracking of all sudo activity for auditing or debugging purposes.
-![WhatsApp Image 2025-11-05 at 20 05 03_b5306ced](https://github.com/user-attachments/assets/4fe39015-f847-4b01-aa4d-4cc29895dcf5)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f5635225-4c80-48eb-b1d0-d092bfc9e868" />
 
 
 Step 3: Edit the sudo configuration file
@@ -1173,12 +1173,7 @@ Step 3: Edit the sudo configuration file
               nano /etc/sudoers.d/sudo_config
               
      Opens the file for editing using the Nano text editor
-     You can also use “visudo -f /etc/sudoers.d/sudo_config” for safer editing 
-          (it checks syntax errors before saving).
-
-![WhatsApp Image 2025-11-05 at 20 10 47_a7e2ad1f](https://github.com/user-attachments/assets/be707ae5-819d-4f4f-be9a-e782b55237ce)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/425e8fde-43e9-48ac-a646-a50fac2a0359" />
 
 
 Step 4: Add the following configuration lines
@@ -1191,8 +1186,7 @@ Step 4: Add the following configuration lines
             Defaults  input_output_log_dir="/var/log/sudo"
             Defaults  requiretty
             Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-
-![WhatsApp Image 2025-11-05 at 20 23 02_b2e3016f](https://github.com/user-attachments/assets/bf668e52-455a-4d9b-ab83-b7d93fb492eb)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7fc93e73-382c-4e5e-86b6-32e9d92d1cd4" />
 
 
 Step 5: Save and exit the editor
@@ -1203,14 +1197,14 @@ Step 5: Save and exit the editor
             Esc → :wq → Enter
         The file is now saved and active.
 
+
 Step 6: Verify configuration
 
          sudo -l
          Displays the list of current sudo rules applied to your user.
          You can also check logs using:
             # tail -f /etc/sudoers.d/sudo_config
-
-![WhatsApp Image 2025-11-05 at 20 28 40_404d9245](https://github.com/user-attachments/assets/140fe921-00ba-4157-ae9c-ecfacfb3d11f)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7c8ea32a-8fa0-42f3-b6a0-0a6a90006b31" />
 
 
    
