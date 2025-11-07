@@ -15,11 +15,11 @@ https://www.virtualbox.org/
         
      3) open the virtualBox to Create the Virtual Machine
          open virtualBox application
-![503635977-30239b3e-daaf-48c7-a228-cdae61d32cac](https://github.com/user-attachments/assets/e4e968d5-5ca5-43aa-a30d-03c4c1f1e043)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ac2c8bed-c727-4db7-9e21-2303dfd0aada" />
 
 
              click on new button to create new virtual machine (VM)
-![503703132-3970fa34-ab04-4729-86c8-76708dd3d8f5](https://github.com/user-attachments/assets/c951cd44-ba52-484b-952f-e66de982d171)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9a417410-ab81-438c-9f67-69142a7e0ae2" />
 
              enter info to create virtual machine (VM) : 
                     Name  + folder (location) + Type + version
@@ -28,7 +28,8 @@ https://www.virtualbox.org/
                           sgonifre is bigger size than goinfre 
                      note for type : (linux)
                      note for version : Debian (64-bit)
-![9](https://github.com/user-attachments/assets/1c33b15d-c3ab-42f6-a8dd-51ba7fb7f2f8)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7be84fd1-6458-4153-bcd5-53d671fa8813" />
+
 
              Allocate RAM memory
                  Select the amount of RAM memory to reserve for the virtual machine
@@ -39,63 +40,59 @@ https://www.virtualbox.org/
                  recommended : 2 CPUs
                  note : you can allocate momory + processor as you want 
               after finish allocate memry + processor enter on the next
-<img width="699" height="528" alt="Screenshot 2025-10-22 142231" src="https://github.com/user-attachments/assets/064bf9fd-f712-4d51-a559-8c5cf45c4480" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/712c75c7-8b7c-48fc-b126-71e61ff2c2ae" />
 
 
              Virtual Hard Disk:
                  choose the option : create a virtual hard disk now 
                  choose the disk size : 20GB  by default  , you can write another value but prefare less than 30 
                 i will make it as a default
-![503721699-e06db18c-d90b-4c33-bd3e-0c8329bd6afe](https://github.com/user-attachments/assets/c32331c7-9013-4ce0-abb5-366e362848c2)
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/95169a3b-37e4-44f9-abcf-f18a30a025f7" />
 
 
           know you have summary of vm that you created it
             click on the  finish 
-<img width="606" height="435" alt="Screenshot 2025-10-22 155006" src="https://github.com/user-attachments/assets/40aaadc5-6c52-4100-9713-060488b23827" />
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/23019311-7cce-4094-bdfb-1e4bb4cbef1e" />
 
 
      4) select the Virtual Machine (VM) that created 
      5) choose setting
-![503727360-18013b84-62c9-475b-bafe-448ec1ea5b2b](https://github.com/user-attachments/assets/27d26a53-ff6b-4a59-b436-77d53c454f51)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0be93c2e-b108-4d64-83ef-bd34127042bc" />
 
     
          storage 
          select Empty word that is bellow controller :IDE
-![503728741-c75ecd2d-bb8e-4950-a4ae-8e91657e1480](https://github.com/user-attachments/assets/0f792a09-cf85-4cfa-8440-eaf458e98d3c)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f432c6e-89e3-4318-af10-3a166ea3b3b0" />
 
 
          Adds optical drive (click on circle button)
          choose "choose/create a virtual optical disk"
-![503731214-46eeb889-b216-4ae9-af4a-03bc5ebdcd11](https://github.com/user-attachments/assets/183f7fbc-4ec5-4c6e-bf22-7c0df0783d4d)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b568d0ef-60c1-4dab-bf28-36f0b688dcd4" />
 
 
             $ add 
-![503734072-ee456a70-4df8-4d7d-a6b5-ce6a7bc2bc5f](https://github.com/user-attachments/assets/a072d865-8940-4c75-a727-5fcec033f120)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a2176a74-8e1d-4b5e-8961-70f85ac0a34a" />
 
 
             $ add the os that you download it 
             $ select it 
-![503734431-c26742a4-d2b7-45c6-a416-61b0848987b0](https://github.com/user-attachments/assets/4dabc598-dab9-4718-97a3-96001f56da40)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1af29bed-210f-464a-b757-bf5da7ba513c" />
 
 
             $ choose
-![503736620-d0337dd6-2f18-40d8-8761-4b20cb148d5a](https://github.com/user-attachments/assets/1c3ca5f8-fec6-4bb6-aff8-8b70fa7a5903)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e0225839-48c0-4c79-8ac1-e5a1d40f6c5b" />
 
   
           click on  ok  
-![503734939-cb1f1f14-fdfd-4b20-bf4e-ed7185fd960e](https://github.com/user-attachments/assets/0b7bbe73-dd17-46e1-9b13-4319cc341d82)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d9153e99-795d-4c36-a903-700459e1be34" />
 
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
       select your machine and start the machine (it will start your vm)
-![503743230-16631c5a-9793-4bf5-9805-2ae1b5ac1eda](https://github.com/user-attachments/assets/070b51d2-da51-4409-9e2a-968f1dd6e7df)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4e0986b8-6cf3-4593-a28c-870b61d46724" />
 
 
      it will load yor vm
-![503743512-c6259b8a-26dd-438a-a7d5-d506217ab878](https://github.com/user-attachments/assets/091854c4-820b-4d2f-8aec-b47bb762cb8d)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4578afba-f207-4831-aab4-6aa7173a6cca" />
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
