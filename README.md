@@ -1204,6 +1204,204 @@ Step 6: Verify configuration
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7c8ea32a-8fa0-42f3-b6a0-0a6a90006b31" />
 
 
+8) password policy Configuration (Password Aging + Complexity Rules)
+
+     
+Overview:
+
+             In this section, you will configure:
+                 1) Password expiration rules (PASS_MAX_DAYS / PASS_MIN_DAYS)
+                 2) Password quality rules using libpam-pwquality
+              These steps are required to enforce strict password security based on the project instructions
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Note:
+
+        You must have root privileges to edit sudo configuration files
+        If you are not currently the root user, switch to root mode by:
+                  su
+             Then enter the root password (set in Step 7)
+        This grants you administrative access to perform system-wide configurations
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////   
+
+
+a) Setting Up Basic Password Expiration Rules
+
+     
+Step 1: Edit login definitions file
+
+             nano /etc/login.defs
+             ~ This file controls system-wide password aging rules.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/049b49f1-d029-4dc3-8acf-46db56c3a8ec" />
+
+     
+Step 2: Modify password parameters
+
+
+As required in the subject:
+
+                 # Set maximum password age = 30 days
+                 # Set minimum password age = 2 days
+
+     
+Find and change the following lines:
+
+                 BEFORE:
+                     PASS_MAX_DAYS    99999
+                     PASS_MIN_DAYS    0
+                     
+                 AFTER:
+                     PASS_MAX_DAYS    30
+                     PASS_MIN_DAYS    2
+
+     
+Important:
+
+                 # These settings force users to update passwords regularly
+                 # Users must wait 2 days before changing the password again
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9504e8bf-66c3-4251-a925-6fd352ab0ff4" />
+
+
+Step 3: Save and exit the editor
+
+             # Nano:
+                 Ctrl + X → Y → Enter
+             # Vim:
+                 Esc → :wq → Enter
+
+     
+b) Installing Password Quality Enforcement (libpam-pwquality)
+
+     
+Step 1: Install password quality library
+
+
+         sudo apt install libpam-pwquality
+        This installs the PAM module responsible for checking password strength
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2223c5a7-a033-4571-8a5f-fa4c354dca17" />
+
+     
+Step 2: Confirm installation
+
+             // y
+             ~ Wait for installation to complete.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0c09789c-743f-482d-9021-71620540f0e7" />
+
+     
+c) Configuring Password Complexity Rules (PAM)
+
+     
+Step 1: Edit the PAM password configuration file
+
+             nano /etc/pam.d/common-password
+             This file controls how passwords are validated during creation or update
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/13b6ed35-2e61-4807-ba86-148b6c5ba887" />
+
+
+Step 2: Add the required complexity rules
+
+Find the line that starts with:
+
+                 password        requisite       pam_pwquality.so retry=3
+
+     
+Then append the following options AFTER retry=3:
+     
+                 minlen=10 \
+                 ucredit=-1 \
+                 lcredit=-1 \
+                 dcredit=-1 \
+                 maxrepeat=3 \
+                 reject_username \
+                 difok=7 \
+                 enforce_for_root
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/354e8b0c-1ca5-42ba-9318-4519a336fe95" />
+
+
+  //////////////////////////////////////////////////   im here
+
+ --------------------------------------------------------------------
+             ✅ Final version (THIS is how the line should look):
+             password requisite pam_pwquality.so retry=3 minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+             --------------------------------------------------------------------
+             ✅ Explanation of each rule:
+                 minlen=10
+                     // Minimum total password length must be 10 characters.
+                 ucredit=-1
+                     // Requires at least 1 uppercase letter.
+                 lcredit=-1
+                     // Requires at least 1 lowercase letter.
+                 dcredit=-1
+                     // Requires at least 1 digit.
+     
+                 maxrepeat=3
+                     // Prevents the user from repeating the same character more than 3 times in a row.
+                     // Example: "AAA" is allowed, "AAAA" is NOT.
+     
+                 reject_username
+                     // The password cannot contain the username.
+     
+                 difok=7
+                     // At least 7 characters must be different from the old password.
+     
+                 enforce_for_root
+                     // These password quality rules also apply to ROOT (important for security).
+     
+         ------------------------------------------------------------------------
+         ✅ This is how the FILE should look (conceptual representation):
+     
+             ---------------------------------------------------------------
+             password requisite pam_pwquality.so retry=3 minlen=10 ucredit=-1 \
+             lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+             ---------------------------------------------------------------
+     
+             ? The rest of the file should stay exactly as it is.
+             ? Only modify the pam_pwquality.so line.
+     
+         ------------------------------------------------------------------------
+     
+         ^ Step 3: Save and exit
+             * Nano: Ctrl + X → Y → Enter
+             * Vim: Esc → :wq → Enter
+     
+         ========================================================================
+         ✅ SUMMARY
+         ========================================================================
+     
+         ✔ Edited /etc/login.defs → set:
+             PASS_MAX_DAYS=30
+             PASS_MIN_DAYS=2
+     
+         ✔ Installed libpam-pwquality for password complexity control
+     
+         ✔ Configured /etc/pam.d/common-password to enforce:
+             - Minimum length 10
+             - Mandatory uppercase, lowercase, digit
+             - No repeated characters ≥ 4 times
+             - At least 7 different characters from old password
+             - No username inside password
+             - Apply to root
+             - 3 retries
+     
+         ✔ System now enforces strong password security
+     
+     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -1217,7 +1415,7 @@ complete the following
 
 
 
-8) password policy 🔑
+
 
 
 
