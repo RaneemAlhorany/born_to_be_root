@@ -869,57 +869,66 @@ note : all command that use bellow also i write it inside file called sudo comma
               You can verify this by checking the group membership of the user
                 example : getent group  user42
                 example : getent group sudo user42 sudo
-![WhatsApp Image 2025-10-24 at 06 33 34_f73dc3a8](https://github.com/user-attachments/assets/b2aab366-5cf4-4dca-8241-a348fc32549d)
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f2414edb-cb4a-41f7-a9f9-0898fe38ac0b" />
 
 
 3) Installing & configuring SSH
 
 
-         ^ note : if you are not as a root user you nooed to do the following 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ note : if you are not as a root user you need to do the following 
+ 
                   a) Switch to root user:
                        $ write the "su" command 
                        ~ then  Enter the root password (set in Step 7).
              ? This gives administrative privileges to perform installations and configurations.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
+
      
          ^ 1) Update the system:
                how to  update the system
                   write the following command  : sudo apt update
                   ~ This command refreshes the package repositories defined in /etc/apt/sources.list
                   ~ It ensures your system knows about the latest available package versions.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ddc70857-de65-45ee-838e-8fa272915688" />
 
-![WhatsApp Image 2025-10-24 at 06 52 31_1da698eb](https://github.com/user-attachments/assets/307af067-70a4-4631-bddb-e66719955938)
 
     ^ 2) Install OpenSSH server package:
         # sudo apt install openssh-server
         ~ OpenSSH allows secure remote login using the SSH protocol.
         ~ When prompted, type “Y” to confirm installation.
         ~ Wait until the installation process completes.
-![WhatsApp Image 2025-11-04 at 10 13 33_b4bad42f](https://github.com/user-attachments/assets/88318a99-1089-4afd-95fe-877647df59bd)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/187418a2-e5b7-47af-b5e8-b576bb2741db" />
+
 
          ^ 3) Verify installation:
         # sudo service ssh status
         ~ You should see: “Active (running)” and “enabled”.
         ? This confirms that SSH is installed and running correctly.
-![WhatsApp Image 2025-10-24 at 07 06 24_dee94734](https://github.com/user-attachments/assets/bd5e9f72-8ae7-47a3-b4c8-409f2bae347d)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7a50abe6-4683-4278-b965-5752422d023c" />
+
 
 Configuring SSH
 (configure the SSH service by editing its configuration files)
 
-    //! note:
-               you should be in root mo if you are not as a root user you need to do the following 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+note:
+    
+               you should be in root mode if you are not as a root user you need to do the following 
            Switch to root user:
                 $ write the "su" command 
                 ~ then  Enter the root password (set in Step 7).
       ? This gives administrative privileges to perform installations and configurations.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-steps : we wiil edit 2 file (/etc/ssh/sshd_config , 
+steps : we wiil edit 2 file (/etc/ssh/sshd_config  , /etc/ssh/ssh_config )
+
 
 edit the first file :
+
 
      1) You can open it with a text editor such as Nano or VIM.
             # nano /etc/ssh/sshd_config
@@ -928,7 +937,7 @@ edit the first file :
 
         ~ To install VIM (optional): if you want to use it 
             # sudo apt install vim 
-![WhatsApp Image 2025-11-04 at 11 38 15_71f302cc](https://github.com/user-attachments/assets/9d550854-f380-4c22-8609-f90e7bdd28c3)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/aa739fc3-0ece-4ab1-8572-6e5d1c0688da" />
 
 
      2) Modify the configuration
@@ -945,10 +954,11 @@ edit the first file :
        ~ Save and exit:
             * In Nano: Ctrl + X → Y → Enter
             * In VIM:  press Esc → type :wq → Enter
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4c6f4512-543e-462f-811b-8c510ed2bd79" />
 
-![WhatsApp Image 2025-11-04 at 11 45 16_55dce424](https://github.com/user-attachments/assets/1be7c748-6cb6-4a63-b9e3-f854596e77dd)
 
 edit the second file :
+
 
       1) You can open it with a text editor such as Nano or VIM.
         # nano /etc/ssh/ssh_config
@@ -957,8 +967,8 @@ edit the second file :
 
     ~ To install VIM (optional): if you want to use it 
         # sudo apt install vim 
-        
-![WhatsApp Image 2025-11-04 at 12 05 28_bba311dc](https://github.com/user-attachments/assets/04ddc0fd-f069-4720-9825-fa526a458d34)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/57a040c3-5d77-41b0-b666-8e252cb5645c" />
+
 
       2) Modify the configuration
            note : In the file, lines starting with (#) are commented out
@@ -970,31 +980,31 @@ edit the second file :
         ~ Save and exit:
              * In Nano: Ctrl + X → Y → Enter
              * In VIM:  press Esc → type :wq → Enter
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9e56bc18-eea5-414a-9187-a463f68d311e" />
              
-![WhatsApp Image 2025-11-04 at 12 10 18_dcb4eb8e](https://github.com/user-attachments/assets/9bebe2d4-8246-414e-bb3d-224f42537e19)
-
 
 Restart SSH service to apply changes:
      
         (must restart the ssh service so it can be updated)
         # sudo service ssh restart
         ~ This reloads the SSH configuration with your updated settings
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1e0bf47e-20dd-4fcf-b179-11edeac2136a" />
 
-![WhatsApp Image 2025-11-04 at 12 37 20_90616d74](https://github.com/user-attachments/assets/be066684-04e4-4a53-8c34-785537437dfd)
 
  Verify SSH service status again:
  
         # sudo service ssh status
         ~ Should show “Active (running)” and mention “port 4242”.
         ? If not, review your configuration file for typos.
-![WhatsApp Image 2025-11-04 at 12 54 31_78f6c786](https://github.com/user-attachments/assets/4c892001-839e-4696-8dc4-06c781b23c86)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f76f5513-8fbd-41aa-b0c4-4212861c3988" />
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 note :
 
      By following these steps, you will have successfully installed and configured the OpenSSH server on your Debian system.
      This setup allows secure remote access to your machine while adhering to the specified security policies.
-
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 4) Connecting via SSH
@@ -1002,65 +1012,63 @@ note :
      
            connecting to the virtual machine via SSH from the host machine
            Port Forwarding Configuration (for VirtualBox):
-     
-          To connect from host to the virtual machine:
-     
-          1) Close the virtual machine (VM)
-![WhatsApp Image 2025-11-04 at 13 38 33_ea8a5a46](https://github.com/user-attachments/assets/7eacc303-6b81-4ee3-b752-17b684ae0f16)
+           To connect from host to the virtual machine:
+
+
+            a) Close the virtual machine (VM)
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/2c9d784b-6c28-46d8-971e-c1b8b3eb1b0c" />
 
                 
-       2) Select the VM then Settings
-![WhatsApp Image 2025-11-04 at 13 40 35_1c31a79a](https://github.com/user-attachments/assets/fe7a6875-3684-4f32-9101-c60617dfd108)
+            b) Select the VM then Settings
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e692b423-2c3f-48c2-818e-bc3dd33625a0" />
 
-       3)  go to  Network then Expand “Advanced” → Click “Port Forwarding”
 
-![WhatsApp Image 2025-11-04 at 13 44 14_bca41ec5](https://github.com/user-attachments/assets/04511acd-d988-43aa-9514-07b72830b419)
+            c)  go to  Network then Expand “Advanced” → Click “Port Forwarding”
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e183c590-e64e-4444-8ca5-751bd70b89b9" />
 
-     
-       4) Click the (+) icon to add a new rule / Click on the emoji for adding a new rule
 
-![WhatsApp Image 2025-11-04 at 13 47 06_54dc7848](https://github.com/user-attachments/assets/13e3a3d8-7d40-4288-9ccb-e1520c0ac7d3)
+            d) Click the (+) icon to add a new rule / Click on the emoji for adding a new rule
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8e7e3cbf-e6ae-42a7-9580-c0f70dfe1dda" />
 
-     5) in the new rule you have to add the following :
-                % Name : SSH
-                % Protocol : TCP
-                % Host IP :
-                % Host Port : 4242 or 4241
-                % Guest IP :
-                % Guest Port : 4242
-                ~ Lastly we will add the 4242 port to host and Guest port. 
-                $ Sometimes a connection issue can occur if the ports are the same. 
-                $ It would be better if they are different, like 4241 (HOST) : 4242 (GUEST) 
-      after adding the information click on OK to save the changes
+
+          e) in the new rule you have to add the following :
+                     % Name : SSH
+                     % Protocol : TCP
+                     % Host IP :
+                     % Host Port : 4242 or 4241
+                     % Guest IP :
+                     % Guest Port : 4242
+                     ~ Lastly we will add the 4242 port to host and Guest port. 
+                     $ Sometimes a connection issue can occur if the ports are the same. 
+                     $ It would be better if they are different, like 4241 (HOST) : 4242 (GUEST) 
+          after adding the information click on OK to save the changes
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4372abe8-df4f-431d-9ed1-2d3a61b7d044" />
       
-![WhatsApp Image 2025-11-04 at 13 53 10_9cb53151](https://github.com/user-attachments/assets/4c16270a-44f6-4860-a159-0bcfb9699da4)
+
+          f) after adding the information click on OK to save the changes
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/00c7ac92-e2fb-405a-8119-b58e3a3f230c" />
 
 
-      6) after adding the information click on OK to save the changes
-![WhatsApp Image 2025-11-04 at 13 57 51_1ecd559a](https://github.com/user-attachments/assets/4d0a7d4b-34a7-4873-968d-b11a9181f605)
-
-Connect from Host to Virtual Machine:
-
-     1) open the terminal in your host machine
-![WhatsApp Image 2025-11-05 at 14 14 48_f598b6a9](https://github.com/user-attachments/assets/74f5b035-9d68-4969-b860-f716d14761d1)
+5) Connect from Host to Virtual Machine:
 
 
-     2) To connect to the virtual machine from the host machine, open a terminal on the host and type :
-             ssh <username>@localhost -p #PortOfHost  (non root user)
-               replace <username> with the username you created during the VM setup (step 9)
-               Enter your user password when prompted (password the new user (step 10))
-
-![WhatsApp Image 2025-11-05 at 14 53 55_fc523528](https://github.com/user-attachments/assets/4e121901-4610-4b3a-8254-aaec725fc9d6)
-    
-
-            ~ This command initiates an SSH connection to the virtual machine running on localhost at port PortOfHost
-            ! Once authenticated, the login prompt will appear in green prompt (login shell), indicating a successful connection.
-
-![WhatsApp Image 2025-11-05 at 15 05 39_c232ed4b](https://github.com/user-attachments/assets/3e460a0f-4446-4555-9ba8-72084fd97f2a)
+          1) open the terminal in your host machine
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/21e01b02-4452-46bf-9b3b-721f058dd7ab" />
 
 
+          2) To connect to the virtual machine from the host machine, open a terminal on the host and type :
+                  ssh <username>@localhost -p #PortOfHost  (non root user)
+                    replace <username> with the username you created during the VM setup (step 9)
+                    Enter your user password when prompted (password the new user (step 10))
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/57167a15-5b33-4cfa-8ddf-d30bc5263550" />
 
-5) Installing & configuring (UFW) Firewall
+
+          ~ This command initiates an SSH connection to the virtual machine running on localhost at port PortOfHost
+          ! Once authenticated, the login prompt will appear in green prompt (login shell), indicating a successful connection.
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3340006e-d76d-4443-a0dc-aba0058b0544" />
+
+
+6) Installing & configuring (UFW) Firewall
 
 
  Note:
@@ -1129,7 +1137,7 @@ Result:
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-6) sudo policies 
+7) sudo policies 
 
 
 Note:
@@ -1221,13 +1229,24 @@ complete the following
 
 
 
-7) password policy 🔑
+8) password policy 🔑
 
-8) Script
 
-9) Crontab
 
-10) Signature.txt
+
+9) Script
+
+
+
+
+
+10) Crontab
+
+
+
+
+
+11) Signature.txt
 
 
 
