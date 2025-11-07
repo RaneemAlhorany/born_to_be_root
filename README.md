@@ -1319,90 +1319,34 @@ Then append the following options AFTER retry=3:
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/354e8b0c-1ca5-42ba-9318-4519a336fe95" />
 
 
-  //////////////////////////////////////////////////   im here
+Explanation of each rule:
 
- --------------------------------------------------------------------
-             ✅ Final version (THIS is how the line should look):
-             password requisite pam_pwquality.so retry=3 minlen=10 ucredit=-1 lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
-             --------------------------------------------------------------------
-             ✅ Explanation of each rule:
                  minlen=10
-                     // Minimum total password length must be 10 characters.
+                     // Minimum total password length must be 10 characters
                  ucredit=-1
-                     // Requires at least 1 uppercase letter.
+                     // Requires at least 1 uppercase letter
                  lcredit=-1
-                     // Requires at least 1 lowercase letter.
+                     // Requires at least 1 lowercase lette.
                  dcredit=-1
-                     // Requires at least 1 digit.
-     
+                     // Requires at least 1 digit
                  maxrepeat=3
-                     // Prevents the user from repeating the same character more than 3 times in a row.
-                     // Example: "AAA" is allowed, "AAAA" is NOT.
-     
+                     // Prevents the user from repeating the same character more than 3 times in a row
+                     // Example: "RRR" is allowed, "RRRR" is NOT
                  reject_username
-                     // The password cannot contain the username.
-     
+                     // The password cannot contain the username
                  difok=7
-                     // At least 7 characters must be different from the old password.
-     
+                     // At least 7 characters must be different from the old password
                  enforce_for_root
-                     // These password quality rules also apply to ROOT (important for security).
+                     // These password quality rules also apply to ROOT (important for security)
+
      
-         ------------------------------------------------------------------------
-         ✅ This is how the FILE should look (conceptual representation):
-     
-             ---------------------------------------------------------------
-             password requisite pam_pwquality.so retry=3 minlen=10 ucredit=-1 \
-             lcredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
-             ---------------------------------------------------------------
-     
-             ? The rest of the file should stay exactly as it is.
-             ? Only modify the pam_pwquality.so line.
-     
-         ------------------------------------------------------------------------
-     
-         ^ Step 3: Save and exit
+Step 3: Save and exit
+
              * Nano: Ctrl + X → Y → Enter
              * Vim: Esc → :wq → Enter
      
-         ========================================================================
-         ✅ SUMMARY
-         ========================================================================
-     
-         ✔ Edited /etc/login.defs → set:
-             PASS_MAX_DAYS=30
-             PASS_MIN_DAYS=2
-     
-         ✔ Installed libpam-pwquality for password complexity control
-     
-         ✔ Configured /etc/pam.d/common-password to enforce:
-             - Minimum length 10
-             - Mandatory uppercase, lowercase, digit
-             - No repeated characters ≥ 4 times
-             - At least 7 different characters from old password
-             - No username inside password
-             - Apply to root
-             - 3 retries
-     
-         ✔ System now enforces strong password security
-     
-     */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 complete the following 
