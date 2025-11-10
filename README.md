@@ -1077,6 +1077,20 @@ note :
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3340006e-d76d-4443-a0dc-aba0058b0544" />
 
 
+note : if you have a problem like : 
+
+     The error message you received indicates that the ECDSA key for the host localhost on port 4241 has changed since 
+     the last time you connected, and your SSH client is configured to perform strict host key checking, which prevents 
+     the connection due to this change.
+     
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dac9a562-a3e4-4cb6-824c-e102ec3e307e" />
+
+
+do the foloowing steps to solve it : Go on and type in your terminal
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1160ba8c-6447-44a5-b94b-170522bdd109" />
+
+          
+
 6) Installing & configuring (UFW) Firewall
 
 
