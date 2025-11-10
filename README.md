@@ -1464,10 +1464,10 @@ Step 2 : Add the script content
                 Sudo: $cmnd cmd"
 ////////////////////////////////////////////////////////////////////////////
 
-HERE AADD THE IMG OF SCRPT
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/11924431-85d0-4e8a-988e-095e06d48500" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ab6008e1-8206-4b3b-a275-9da52f69d1b4" />
 
-    ------------------------------------------------------------------
-    ^ Step 3 : Save and exit the editor
+Step 3 : Save and exit the editor
 
         # Nano:
             Ctrl + X → Y → Enter
@@ -1475,14 +1475,16 @@ HERE AADD THE IMG OF SCRPT
         # Vim:
             Esc → :wq → Enter
 
-    ------------------------------------------------------------------
-    ^ Step 4 : Execute the script
-        sh monitoring.sh
+Step 4 : Execute the script
 
+        sh monitoring.sh
         ~ Running the script will display the final system report using `wall`.
 
-*/
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/82b14af4-6edb-40c0-b744-763a5e51cb73" />
 
+
+
+10) Crontab
 
 
 
@@ -1508,22 +1510,6 @@ complete the following
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10) Crontab
 
 
 
