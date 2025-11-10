@@ -1441,7 +1441,7 @@ Step 2 : Add the script content
             tcpc=$(ss -ta | grep ESTAB | wc -l)
 
             # USER LOG
-            ulog=$(who | wc -l)
+            ulog=$(users | tr ' ' '\n' | sort |  uniq | wc -w )
 
             # NETWORK
             ip=$(hostname -I)
@@ -1464,14 +1464,8 @@ Step 2 : Add the script content
                 Sudo: $cmnd cmd"
 ////////////////////////////////////////////////////////////////////////////
 
-here add img script
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-
-complete the following 
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b479303-6c46-4d67-9ac2-48165f0c2912" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cbae61b9-3e28-4d9b-86a3-05c86dec56fa" />
 
 Step 3 : Save and exit the editor
 
@@ -1485,13 +1479,19 @@ Step 4 : Execute the script
 
         sh monitoring.sh
         ~ Running the script will display the final system report using `wall`.
-
-
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6c010a47-d73c-47ee-9210-f35bdf2117fc" />
 
 
 10) Crontab
 
 
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+complete the following 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
