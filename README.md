@@ -1055,6 +1055,11 @@ note :
 
 5) Connect from Host to Virtual Machine:
 
+     NOTE :
+
+          YOU should open the vm before connect
+
+
 
           1) open the terminal in your host machine
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/21e01b02-4452-46bf-9b3b-721f058dd7ab" />
