@@ -1411,7 +1411,7 @@ Step 2 : Add the script content
             arch=$(uname -a)
 
             # CPU PHYSICAL
-            cpuf=$(grep "physical id" /proc/cpuinfo | wc -l)
+            cpuf=$(lscpu | grep 'Socket(s):' | awk '{print $2}')
 
             # CPU VIRTUAL
             cpuv=$(grep "processor" /proc/cpuinfo | wc -l)
@@ -1441,7 +1441,7 @@ Step 2 : Add the script content
             tcpc=$(ss -ta | grep ESTAB | wc -l)
 
             # USER LOG
-            ulog=$(users | wc -w)
+            ulog=$(who | wc -l)
 
             # NETWORK
             ip=$(hostname -I)
@@ -1464,8 +1464,14 @@ Step 2 : Add the script content
                 Sudo: $cmnd cmd"
 ////////////////////////////////////////////////////////////////////////////
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/11924431-85d0-4e8a-988e-095e06d48500" />
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ab6008e1-8206-4b3b-a275-9da52f69d1b4" />
+here add img script
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+complete the following 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Step 3 : Save and exit the editor
 
@@ -1480,7 +1486,6 @@ Step 4 : Execute the script
         sh monitoring.sh
         ~ Running the script will display the final system report using `wall`.
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/82b14af4-6edb-40c0-b744-763a5e51cb73" />
 
 
 
@@ -1502,12 +1507,6 @@ Step 4 : Execute the script
 
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-
-complete the following 
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
