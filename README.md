@@ -1485,11 +1485,36 @@ Step 4 : Execute the script
 10) Crontab
 
 
+step 1: we need to change the permission of the script file  so add the following steps
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6f216c6d-be57-4e9d-aaaf-430a2fd622fd" />
+
+    
+steps 2 : write the path of the Crontab
+
+          sudo crontab -e
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1b207826-8303-4d3b-8e76-777b6e77c3d8" />
 
 
 
+step 2: at the end of the file add the following line
 
-11) Signature.txt
+          @reboot /bin/bash -c 'while true; do /home/ralhoura/monitoring.sh; sleep 600; done' &
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6ef41d9c-f8bc-433c-89f1-fe1ca28a11de" />
+
+
+the value will be appear like the following after  10 minute: 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/0a40fab0-3a20-4fe2-b8c3-07f9610c7318" />
+
+
+
+12) Signature.txt
+
+              to get the signature from the vm
+    step 1: power off your vm
+    step 2  : write the following command
+         <img width="502" height="136" alt="image" src="https://github.com/user-attachments/assets/031ee0af-9a47-4940-9c58-ffecebee7f32" />
+
+    
 
 
 
