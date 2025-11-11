@@ -1213,7 +1213,7 @@ Step 4: Add the following configuration lines
             Defaults  requiretty
             Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d90552cb-cf74-42bc-b1ff-60d5ae6f39f7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/968e4139-0fd0-4780-a9d8-cdd3e0ed84ef" />
 
 Step 5: Save and exit the editor
 
