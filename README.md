@@ -1205,15 +1205,15 @@ Step 3: Edit the sudo configuration file
 Step 4: Add the following configuration lines
 
         ! note: Each line defines a security or logging policy for sudo behavior.
-            Defaults  password_tries=3
-            Defaults  failed_password_message="The password is incorrect"
-            Defaults  log_file="/var/log/sudo/sudo_config"
+            Defaults  passwd_tries=3
+            Defaults  badpass_message="The password is incorrect"
+            Defaults  logfile="/var/log/sudo/sudo_config"
             Defaults  log_input, log_output
-            Defaults  input_output_log_dir="/var/log/sudo"
+            Defaults  iolog_dir="/var/log/sudo"
             Defaults  requiretty
             Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7fc93e73-382c-4e5e-86b6-32e9d92d1cd4" />
 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d90552cb-cf74-42bc-b1ff-60d5ae6f39f7" />
 
 Step 5: Save and exit the editor
 
