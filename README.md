@@ -1427,7 +1427,7 @@ Step 2 : Add the script content
             disk_percent=$(df -m | grep "/dev/" | grep -v "/boot" | awk '{disk_u += $3} {disk_t+= $2} END {printf("%d"), disk_u/disk_t*100}')
 
             # CPU LOAD
-            cpul=$(vmstat 1 2 | tail -1 | awk '{printf $15}')
+            cpul=$(vmstat 1 4 | tail -1 | awk '{printf $15}')
             cpu_op=$(expr 100 - $cpul)
             cpu_fin=$(printf "%.1f" $cpu_op)
 
@@ -1464,7 +1464,7 @@ Step 2 : Add the script content
                 Sudo: $cmnd cmd"
 ////////////////////////////////////////////////////////////////////////////
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b479303-6c46-4d67-9ac2-48165f0c2912" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c27ea4ca-1c8c-48d6-9c0a-adfcabb18f6f" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cbae61b9-3e28-4d9b-86a3-05c86dec56fa" />
 
 Step 3 : Save and exit the editor
