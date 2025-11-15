@@ -1,7 +1,7 @@
 # born_to_be_root
 it is a 42 project
 
-before do all the steps bellow you should study the files from 01 t 0
+before do all the steps bellow you should study the files from 01 to 20  + partition + sudoCommand + Evaluation
 
 steps how to solve mandatory part using debian + the first point of the bonus part
 
