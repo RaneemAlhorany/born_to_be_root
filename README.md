@@ -1300,6 +1300,22 @@ Step 3: Save and exit the editor
              # Vim:
                  Esc → :wq → Enter
 
+step 4: change the password rulues for current user and root 
+
+     use the folowing command 
+          sudo chage -l <username>
+          sudo chage -M 30 -m 2 -W 7 <username>
+
+          example:
+               sudo chage -l root
+               sudo chage -M 30 -m 2 -W 7 root
+               sudo chage -l ralhoura
+               sudo chage -M 30 -m 2 -W 7 ralhoura
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/07fb0117-cfc4-42fd-ab42-6c1b665f37ff" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cdba5e47-5be2-4278-9055-5eade285c22e" />
+
+
      
 b) Installing Password Quality Enforcement (libpam-pwquality)
 
