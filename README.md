@@ -1531,7 +1531,7 @@ the value will be appear like the following after  10 minute:
     step 3 : open the terminal 
     step 4 : write the following command
     
-         <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/031ee0af-9a47-4940-9c58-ffecebee7f32" />
+ <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/031ee0af-9a47-4940-9c58-ffecebee7f32" />
 
     
 
